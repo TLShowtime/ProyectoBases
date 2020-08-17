@@ -1,0 +1,2421 @@
+<Operaciones_por_Dia>
+  <OperacionDia fecha="2020-02-01">
+    <ClienteNuevo Identificacion="379403" Nombre="Gracie-Leigh Aguilar"/>
+    <ClienteNuevo Identificacion="228827" Nombre="Kiefer Porter"/>
+    <ClienteNuevo Identificacion="196368" Nombre="Garin Mccartney"/>
+    <ClienteNuevo Identificacion="375548" Nombre="Mari Weeks"/>
+    <ClienteNuevo Identificacion="212823" Nombre="John Holding"/>
+    <NuevoContrato Identificacion="212823" Numero="85558939" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="196368" Numero="65550471" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="375548" Numero="90065559901" TipoTarifa="8"/>
+    <NuevoContrato Identificacion="379403" Numero="65551923" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="228827" Numero="65558743" TipoTarifa="4"/>
+    <RelacionFamiliar IdentificacionDe="228827" IdentificacionA="379403" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65558743" Inicio="17:26" Fin="17:31"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="65550471" Inicio="07:25" Fin="07:42"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65558743" Inicio="14:18" Fin="17:33"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="65551923" Inicio="00:54" Fin="06:57"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85558939" Inicio="06:49" Fin="10:57"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65550471" Inicio="05:43" Fin="08:44"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="85558939" Inicio="19:43" Fin="19:49"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65551923" Inicio="00:00" Fin="05:13"/>
+    <UsoDatos Numero="65550471" CantMegas="4.47"/>
+    <UsoDatos Numero="65551923" CantMegas="28.72"/>
+    <UsoDatos Numero="85558939" CantMegas="2.88"/>
+    <UsoDatos Numero="65558743" CantMegas="1.92"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-02">
+    <ClienteNuevo Identificacion="313836" Nombre="Lorna Case"/>
+    <ClienteNuevo Identificacion="377202" Nombre="Indi Mason"/>
+    <NuevoContrato Identificacion="313836" Numero="85558521" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="377202" Numero="65551143" TipoTarifa="4"/>
+    <RelacionFamiliar IdentificacionDe="377202" IdentificacionA="313836" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85558939" Inicio="04:48" Fin="11:51"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65558743" Inicio="14:41" Fin="18:51"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="85558939" Inicio="01:38" Fin="02:49"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65558743" Inicio="01:37" Fin="05:45"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65551923" Inicio="23:24" Fin="23:53"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65558743" Inicio="04:20" Fin="05:24"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65551143" Inicio="10:14" Fin="14:18"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="65551143" Inicio="08:09" Fin="08:20"/>
+    <UsoDatos Numero="65550471" CantMegas="44.36"/>
+    <UsoDatos Numero="65551143" CantMegas="19.22"/>
+    <UsoDatos Numero="65551143" CantMegas="48.11"/>
+    <UsoDatos Numero="85558521" CantMegas="29.26"/>
+    <UsoDatos Numero="65551143" CantMegas="32.82"/>
+    <UsoDatos Numero="65551143" CantMegas="18.37"/>
+    <UsoDatos Numero="65558743" CantMegas="37.7"/>
+    <UsoDatos Numero="65550471" CantMegas="48.2"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-03">
+    <ClienteNuevo Identificacion="129222" Nombre="Thelma Gardner"/>
+    <ClienteNuevo Identificacion="161432" Nombre="Clifford Oneal"/>
+    <ClienteNuevo Identificacion="389988" Nombre="Aqeel Underwood"/>
+    <ClienteNuevo Identificacion="261612" Nombre="Mohammod Thorne"/>
+    <NuevoContrato Identificacion="129222" Numero="75558859" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="261612" Numero="65554137" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="389988" Numero="65558397" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="161432" Numero="90085559817" TipoTarifa="12"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="75558859" Inicio="07:15" Fin="13:31"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="85558939" Inicio="06:50" Fin="09:51"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85558521" Inicio="17:03" Fin="23:16"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="65550471" Inicio="15:09" Fin="18:18"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65551143" Inicio="02:06" Fin="04:28"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="75558859" Inicio="22:54" Fin="23:56"/>
+    <UsoDatos Numero="85558939" CantMegas="21.52"/>
+    <UsoDatos Numero="85558521" CantMegas="33.81"/>
+    <UsoDatos Numero="65554137" CantMegas="24.9"/>
+    <UsoDatos Numero="65551143" CantMegas="46.26"/>
+    <UsoDatos Numero="65554137" CantMegas="34.41"/>
+    <UsoDatos Numero="65558397" CantMegas="18.36"/>
+    <UsoDatos Numero="85558521" CantMegas="5.61"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-04">
+    <ClienteNuevo Identificacion="153001" Nombre="Lillie-Rose Mathews"/>
+    <ClienteNuevo Identificacion="275299" Nombre="Ibraheem Ware"/>
+    <NuevoContrato Identificacion="275299" Numero="85551324" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="153001" Numero="75552607" TipoTarifa="3"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="85551324" Inicio="17:47" Fin="19:59"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65554137" Inicio="21:45" Fin="21:47"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="85558939" Inicio="00:20" Fin="07:34"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65554137" Inicio="08:23" Fin="15:56"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="75558859" Inicio="13:11" Fin="17:23"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85551324" Inicio="02:51" Fin="09:55"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="65558397" Inicio="17:25" Fin="17:45"/>
+    <UsoDatos Numero="65558743" CantMegas="39.03"/>
+    <UsoDatos Numero="85558521" CantMegas="30.34"/>
+    <UsoDatos Numero="65551143" CantMegas="15.36"/>
+    <UsoDatos Numero="85551324" CantMegas="18.38"/>
+    <UsoDatos Numero="65554137" CantMegas="49.92"/>
+    <UsoDatos Numero="85558521" CantMegas="40.46"/>
+    <UsoDatos Numero="65554137" CantMegas="48.6"/>
+    <UsoDatos Numero="65550471" CantMegas="26.41"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-05">
+    <ClienteNuevo Identificacion="366046" Nombre="Beck Landry"/>
+    <ClienteNuevo Identificacion="396299" Nombre="Jeffery Donaldson"/>
+    <NuevoContrato Identificacion="366046" Numero="75550871" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="396299" Numero="65556756" TipoTarifa="4"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="65554137" Inicio="04:25" Fin="05:35"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="65550471" Inicio="01:02" Fin="03:57"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="85558521" Inicio="16:28" Fin="17:47"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="75550871" Inicio="18:34" Fin="23:45"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85551324" Inicio="05:45" Fin="06:54"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="65558743" Inicio="07:49" Fin="10:52"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="65551923" Inicio="17:15" Fin="19:34"/>
+    <UsoDatos Numero="65550471" CantMegas="24.53"/>
+    <UsoDatos Numero="85558521" CantMegas="48.21"/>
+    <UsoDatos Numero="65554137" CantMegas="43.4"/>
+    <UsoDatos Numero="65558397" CantMegas="36.57"/>
+    <UsoDatos Numero="65554137" CantMegas="39.4"/>
+    <UsoDatos Numero="65550471" CantMegas="8.97"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-06">
+    <ClienteNuevo Identificacion="168462" Nombre="Javan Kouma"/>
+    <ClienteNuevo Identificacion="235337" Nombre="Ella-Grace Melton"/>
+    <ClienteNuevo Identificacion="338462" Nombre="Nellie Mcintyre"/>
+    <ClienteNuevo Identificacion="257076" Nombre="Rea Arias"/>
+    <ClienteNuevo Identificacion="271958" Nombre="Erica Coates"/>
+    <NuevoContrato Identificacion="235337" Numero="85550549" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="168462" Numero="65556768" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="257076" Numero="85554398" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="338462" Numero="80085556884" TipoTarifa="12"/>
+    <NuevoContrato Identificacion="271958" Numero="65559667" TipoTarifa="2"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65551923" Inicio="00:03" Fin="07:25"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="65556756" Inicio="05:43" Fin="12:59"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="75558859" Inicio="07:05" Fin="07:08"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85554398" Inicio="02:33" Fin="05:46"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="85558939" Inicio="06:36" Fin="07:51"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65550471" Inicio="16:28" Fin="21:36"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="75550871" Inicio="22:19" Fin="23:21"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="85550549" Inicio="04:37" Fin="11:50"/>
+    <UsoDatos Numero="75552607" CantMegas="15.51"/>
+    <UsoDatos Numero="85551324" CantMegas="47.59"/>
+    <UsoDatos Numero="85551324" CantMegas="24.67"/>
+    <UsoDatos Numero="65556768" CantMegas="28.75"/>
+    <UsoDatos Numero="85550549" CantMegas="46.31"/>
+    <UsoDatos Numero="65558397" CantMegas="28.57"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-07">
+    <ClienteNuevo Identificacion="392073" Nombre="Harvey-Lee Mcneill"/>
+    <ClienteNuevo Identificacion="392309" Nombre="Areebah King"/>
+    <ClienteNuevo Identificacion="128231" Nombre="Shelby Singh"/>
+    <ClienteNuevo Identificacion="217253" Nombre="Tillie Guy"/>
+    <NuevoContrato Identificacion="392073" Numero="65553930" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="217253" Numero="90065551193" TipoTarifa="11"/>
+    <NuevoContrato Identificacion="128231" Numero="65554851" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="392309" Numero="85557677" TipoTarifa="5"/>
+    <RelacionFamiliar IdentificacionDe="392073" IdentificacionA="392309" TipoRelacion="1"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="65551143" Inicio="06:02" Fin="06:45"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="85554398" Inicio="23:07" Fin="23:28"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="65551143" Inicio="12:14" Fin="15:29"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65551143" Inicio="05:30" Fin="11:33"/>
+    <UsoDatos Numero="75550871" CantMegas="47.1"/>
+    <UsoDatos Numero="65558743" CantMegas="40.26"/>
+    <UsoDatos Numero="85558939" CantMegas="6.36"/>
+    <UsoDatos Numero="65554137" CantMegas="23.21"/>
+    <UsoDatos Numero="65558743" CantMegas="35.62"/>
+    <UsoDatos Numero="65556768" CantMegas="15.79"/>
+    <UsoDatos Numero="85558521" CantMegas="39.16"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-08">
+    <ClienteNuevo Identificacion="280589" Nombre="Maisha Webber"/>
+    <ClienteNuevo Identificacion="123669" Nombre="Lindsay Duarte"/>
+    <ClienteNuevo Identificacion="184413" Nombre="Roxanne Jones"/>
+    <NuevoContrato Identificacion="123669" Numero="65556561" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="184413" Numero="65558023" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="280589" Numero="65551245" TipoTarifa="3"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65556561" Inicio="05:19" Fin="05:34"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65551245" Inicio="16:14" Fin="19:29"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="85558939" Inicio="01:48" Fin="06:57"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="65554851" Inicio="18:51" Fin="22:54"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="65558397" Inicio="22:46" Fin="22:54"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65558397" Inicio="12:44" Fin="17:44"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65558397" Inicio="05:39" Fin="11:44"/>
+    <UsoDatos Numero="75552607" CantMegas="22.16"/>
+    <UsoDatos Numero="75550871" CantMegas="5.37"/>
+    <UsoDatos Numero="75552607" CantMegas="30.43"/>
+    <UsoDatos Numero="65554851" CantMegas="30.88"/>
+    <UsoDatos Numero="85558521" CantMegas="10.17"/>
+    <UsoDatos Numero="85554398" CantMegas="21.55"/>
+    <UsoDatos Numero="65553930" CantMegas="25.6"/>
+    <UsoDatos Numero="85551324" CantMegas="25.28"/>
+    <UsoDatos Numero="65551923" CantMegas="22.51"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-09">
+    <ClienteNuevo Identificacion="254023" Nombre="Borys Burt"/>
+    <ClienteNuevo Identificacion="136704" Nombre="Vivaan Power"/>
+    <ClienteNuevo Identificacion="290171" Nombre="Reiss Nixon"/>
+    <ClienteNuevo Identificacion="341560" Nombre="Niko Williamson"/>
+    <NuevoContrato Identificacion="136704" Numero="85553051" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="341560" Numero="85553586" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="254023" Numero="65554410" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="290171" Numero="80075554426" TipoTarifa="10"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65558023" Inicio="13:33" Fin="20:39"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85558939" Inicio="03:45" Fin="08:58"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="85553051" Inicio="03:51" Fin="10:53"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="85550549" Inicio="15:47" Fin="20:58"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="85551324" Inicio="11:54" Fin="11:59"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="65553930" Inicio="13:47" Fin="16:53"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="65559667" Inicio="01:04" Fin="01:36"/>
+    <UsoDatos Numero="65551143" CantMegas="10.87"/>
+    <UsoDatos Numero="85558939" CantMegas="31.24"/>
+    <UsoDatos Numero="65554137" CantMegas="31.73"/>
+    <UsoDatos Numero="65551245" CantMegas="39.65"/>
+    <UsoDatos Numero="65554851" CantMegas="8.89"/>
+    <UsoDatos Numero="65556561" CantMegas="7.28"/>
+    <UsoDatos Numero="65554137" CantMegas="45.16"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-10">
+    <ClienteNuevo Identificacion="156297" Nombre="Kaja Stein"/>
+    <ClienteNuevo Identificacion="167430" Nombre="Ariyah Leach"/>
+    <ClienteNuevo Identificacion="256319" Nombre="Ocean Ponce"/>
+    <NuevoContrato Identificacion="256319" Numero="80085559081" TipoTarifa="12"/>
+    <NuevoContrato Identificacion="156297" Numero="75553737" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="167430" Numero="65550572" TipoTarifa="4"/>
+    <RelacionFamiliar IdentificacionDe="167430" IdentificacionA="156297" TipoRelacion="1"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="65558397" Inicio="11:32" Fin="14:37"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="65550471" Inicio="07:30" Fin="12:42"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65554137" Inicio="01:35" Fin="02:45"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85553051" Inicio="17:05" Fin="18:32"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="85553586" Inicio="19:38" Fin="19:57"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="65556561" Inicio="12:38" Fin="17:39"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="85554398" Inicio="14:45" Fin="16:49"/>
+    <UsoDatos Numero="65553930" CantMegas="20.96"/>
+    <UsoDatos Numero="65558743" CantMegas="2.5"/>
+    <UsoDatos Numero="65558743" CantMegas="39.06"/>
+    <UsoDatos Numero="85553586" CantMegas="28.1"/>
+    <UsoDatos Numero="65551923" CantMegas="3.4"/>
+    <UsoDatos Numero="75558859" CantMegas="25.97"/>
+    <UsoDatos Numero="85554398" CantMegas="34.44"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-11">
+    <ClienteNuevo Identificacion="302350" Nombre="Patience Richard"/>
+    <ClienteNuevo Identificacion="316340" Nombre="Pierre Laing"/>
+    <NuevoContrato Identificacion="316340" Numero="75557867" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="302350" Numero="90085556932" TipoTarifa="12"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="65554851" Inicio="00:37" Fin="02:44"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65558743" Inicio="00:00" Fin="01:55"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="85558939" Inicio="00:10" Fin="07:12"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65550471" Inicio="04:15" Fin="10:27"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65553930" Inicio="09:36" Fin="09:50"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="75553737" Inicio="08:04" Fin="09:36"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65556561" Inicio="01:37" Fin="06:56"/>
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="85553051" Inicio="12:49" Fin="13:51"/>
+    <UsoDatos Numero="65553930" CantMegas="49.27"/>
+    <UsoDatos Numero="85558521" CantMegas="33.95"/>
+    <UsoDatos Numero="85553586" CantMegas="11.47"/>
+    <UsoDatos Numero="65551143" CantMegas="18.3"/>
+    <UsoDatos Numero="75550871" CantMegas="40.03"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-12">
+    <ClienteNuevo Identificacion="346240" Nombre="Siddharth Orr"/>
+    <ClienteNuevo Identificacion="375442" Nombre="Poppy-Mae Coles"/>
+    <ClienteNuevo Identificacion="220255" Nombre="Zahara Downs"/>
+    <ClienteNuevo Identificacion="379738" Nombre="Gilbert Blevins"/>
+    <ClienteNuevo Identificacion="280984" Nombre="Joanna Washington"/>
+    <NuevoContrato Identificacion="220255" Numero="75557827" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="379738" Numero="65551574" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="375442" Numero="90075558865" TipoTarifa="7"/>
+    <NuevoContrato Identificacion="346240" Numero="65559657" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="280984" Numero="65556336" TipoTarifa="2"/>
+    <LlamadaTelefonica NumeroDe="85554398" NumeroA="65559657" Inicio="18:02" Fin="22:24"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65559657" Inicio="23:08" Fin="23:26"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="75550871" Inicio="21:51" Fin="22:54"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="65551923" Inicio="06:57" Fin="12:58"/>
+    <UsoDatos Numero="75558859" CantMegas="24.69"/>
+    <UsoDatos Numero="65556561" CantMegas="44.19"/>
+    <UsoDatos Numero="85551324" CantMegas="7.64"/>
+    <UsoDatos Numero="85558939" CantMegas="7.77"/>
+    <UsoDatos Numero="75557867" CantMegas="29.23"/>
+    <UsoDatos Numero="65551143" CantMegas="39.65"/>
+    <UsoDatos Numero="65559657" CantMegas="41.82"/>
+    <UsoDatos Numero="65554137" CantMegas="6.22"/>
+    <UsoDatos Numero="65556561" CantMegas="9.14"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-13">
+    <ClienteNuevo Identificacion="399571" Nombre="Axl Espinosa"/>
+    <ClienteNuevo Identificacion="224048" Nombre="Edison Newman"/>
+    <NuevoContrato Identificacion="399571" Numero="65558291" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="224048" Numero="85556960" TipoTarifa="1"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="75557867" Inicio="13:19" Fin="19:25"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="65551245" Inicio="19:56" Fin="23:58"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65551574" Inicio="20:45" Fin="23:49"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="85557677" Inicio="11:05" Fin="17:38"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="75553737" Inicio="18:10" Fin="21:50"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="75557827" Inicio="12:25" Fin="16:46"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="65558397" Inicio="07:36" Fin="14:39"/>
+    <UsoDatos Numero="65559667" CantMegas="28.18"/>
+    <UsoDatos Numero="65559667" CantMegas="41.56"/>
+    <UsoDatos Numero="85551324" CantMegas="5.79"/>
+    <UsoDatos Numero="65559667" CantMegas="37.42"/>
+    <UsoDatos Numero="65558397" CantMegas="14.71"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-14">
+    <ClienteNuevo Identificacion="212096" Nombre="Filip Castaneda"/>
+    <ClienteNuevo Identificacion="192851" Nombre="Victoria Cooke"/>
+    <NuevoContrato Identificacion="192851" Numero="85554993" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="212096" Numero="75557017" TipoTarifa="6"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65551574" Inicio="21:01" Fin="21:53"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="85557677" Inicio="17:17" Fin="17:35"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85554993" Inicio="09:29" Fin="14:58"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="85550549" Inicio="17:53" Fin="17:58"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65551574" Inicio="00:03" Fin="01:49"/>
+    <UsoDatos Numero="85551324" CantMegas="48.27"/>
+    <UsoDatos Numero="85553586" CantMegas="8.84"/>
+    <UsoDatos Numero="65554137" CantMegas="30.09"/>
+    <UsoDatos Numero="85551324" CantMegas="9.07"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-15">
+    <ClienteNuevo Identificacion="253229" Nombre="Carlie Acevedo"/>
+    <ClienteNuevo Identificacion="157023" Nombre="Kaylen Snow"/>
+    <ClienteNuevo Identificacion="239260" Nombre="Dahlia Peel"/>
+    <ClienteNuevo Identificacion="185063" Nombre="Olli Sykes"/>
+    <NuevoContrato Identificacion="157023" Numero="75555814" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="239260" Numero="75552106" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="185063" Numero="75555459" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="253229" Numero="85551365" TipoTarifa="6"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="110" Inicio="23:17" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="911" Inicio="11:21" Fin="11:36"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="65558743" Inicio="08:08" Fin="12:18"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65554137" Inicio="05:18" Fin="12:23"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="85554993" Inicio="00:53" Fin="07:57"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="65558023" Inicio="23:12" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="75552106" Inicio="10:36" Fin="13:52"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="65551923" Inicio="04:47" Fin="06:50"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="65551143" Inicio="23:17" Fin="23:22"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="65559667" Inicio="23:17" Fin="23:42"/>
+    <UsoDatos Numero="65551143" CantMegas="40.68"/>
+    <UsoDatos Numero="65558291" CantMegas="10.86"/>
+    <UsoDatos Numero="85558521" CantMegas="35.3"/>
+    <UsoDatos Numero="65556768" CantMegas="2.62"/>
+    <UsoDatos Numero="85550549" CantMegas="38.59"/>
+    <UsoDatos Numero="85551365" CantMegas="29.75"/>
+    <UsoDatos Numero="65556336" CantMegas="25.99"/>
+    <UsoDatos Numero="75552607" CantMegas="36.14"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-16">
+    <ClienteNuevo Identificacion="186043" Nombre="Simon Hunter"/>
+    <ClienteNuevo Identificacion="394860" Nombre="Zahid Sharp"/>
+    <ClienteNuevo Identificacion="225242" Nombre="Mercy Everett"/>
+    <ClienteNuevo Identificacion="306235" Nombre="Loki Gonzalez"/>
+    <ClienteNuevo Identificacion="331449" Nombre="Renae Whyte"/>
+    <NuevoContrato Identificacion="225242" Numero="75553193" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="331449" Numero="75553979" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="306235" Numero="85557077" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="186043" Numero="65558344" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="394860" Numero="65552519" TipoTarifa="2"/>
+    <RelacionFamiliar IdentificacionDe="306235" IdentificacionA="186043" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="75553193" Inicio="10:34" Fin="16:35"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="65556756" Inicio="17:08" Fin="23:08"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85550549" Inicio="06:48" Fin="11:59"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65550572" Inicio="15:17" Fin="19:30"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="65550471" Inicio="21:36" Fin="23:44"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="75553979" Inicio="16:57" Fin="23:58"/>
+    <UsoDatos Numero="75553737" CantMegas="40.67"/>
+    <UsoDatos Numero="85558521" CantMegas="3.42"/>
+    <UsoDatos Numero="65550572" CantMegas="28.59"/>
+    <UsoDatos Numero="75553979" CantMegas="24.21"/>
+    <UsoDatos Numero="85558939" CantMegas="1.27"/>
+    <UsoDatos Numero="65559667" CantMegas="36.24"/>
+    <UsoDatos Numero="85558521" CantMegas="13.12"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-17">
+    <ClienteNuevo Identificacion="320276" Nombre="Humphrey Wade"/>
+    <ClienteNuevo Identificacion="147669" Nombre="Mariah Vinson"/>
+    <NuevoContrato Identificacion="320276" Numero="75558748" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="147669" Numero="85554422" TipoTarifa="3"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="110" Inicio="23:17" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="110" Inicio="23:17" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="110" Inicio="23:17" Fin="23:49"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65559657" Inicio="11:32" Fin="14:35"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="65558344" Inicio="06:24" Fin="08:27"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="75550871" Inicio="16:10" Fin="23:35"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="85557677" Inicio="14:25" Fin="18:29"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="75550871" Inicio="09:26" Fin="09:42"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="75552106" Inicio="14:27" Fin="14:27"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="65558397" Inicio="02:50" Fin="03:52"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="75552607" Inicio="15:20" Fin="22:36"/>
+    <UsoDatos Numero="65554851" CantMegas="4.14"/>
+    <UsoDatos Numero="65552519" CantMegas="11.87"/>
+    <UsoDatos Numero="75553193" CantMegas="13.07"/>
+    <UsoDatos Numero="75557827" CantMegas="42.59"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-18">
+    <ClienteNuevo Identificacion="276155" Nombre="Alessandro Rhodes"/>
+    <ClienteNuevo Identificacion="397889" Nombre="Cheryl Gibson"/>
+    <ClienteNuevo Identificacion="263079" Nombre="Humaira Noble"/>
+    <NuevoContrato Identificacion="276155" Numero="90075551089" TipoTarifa="7"/>
+    <NuevoContrato Identificacion="397889" Numero="75554666" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="263079" Numero="85557202" TipoTarifa="3"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="85554398" Inicio="18:37" Fin="22:50"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="75555814" Inicio="23:47" Fin="23:56"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="75558748" Inicio="15:11" Fin="15:28"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="65554851" Inicio="00:05" Fin="01:36"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="85557677" Inicio="03:52" Fin="07:58"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="65551574" Inicio="16:43" Fin="20:44"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="65554851" Inicio="21:52" Fin="23:56"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="75555459" Inicio="18:44" Fin="20:52"/>
+    <LlamadaTelefonica NumeroDe="85557202" NumeroA="85558939" Inicio="15:50" Fin="21:59"/>
+    <UsoDatos Numero="65558344" CantMegas="3.77"/>
+    <UsoDatos Numero="65559667" CantMegas="35.36"/>
+    <UsoDatos Numero="75557017" CantMegas="35.46"/>
+    <UsoDatos Numero="85557202" CantMegas="30.75"/>
+    <UsoDatos Numero="75557867" CantMegas="16.14"/>
+    <UsoDatos Numero="65554410" CantMegas="33.53"/>
+    <UsoDatos Numero="85553051" CantMegas="28.74"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-19">
+    <ClienteNuevo Identificacion="199886" Nombre="Tessa Alford"/>
+    <ClienteNuevo Identificacion="311640" Nombre="Aairah Brook"/>
+    <NuevoContrato Identificacion="311640" Numero="65558628" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="199886" Numero="75551579" TipoTarifa="6"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="911" Inicio="11:21" Fin="11:36"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="85553051" Inicio="05:43" Fin="05:55"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="75553737" Inicio="13:40" Fin="18:45"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65556336" Inicio="07:43" Fin="12:48"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65550572" Inicio="08:34" Fin="10:44"/>
+    <UsoDatos Numero="75557827" CantMegas="21.83"/>
+    <UsoDatos Numero="65554410" CantMegas="39.29"/>
+    <UsoDatos Numero="75552607" CantMegas="26.82"/>
+    <UsoDatos Numero="75558748" CantMegas="26.41"/>
+    <UsoDatos Numero="65558291" CantMegas="2.14"/>
+    <UsoDatos Numero="65558344" CantMegas="15.66"/>
+    <UsoDatos Numero="65558743" CantMegas="47.57"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-20">
+    <ClienteNuevo Identificacion="258679" Nombre="Shabaz Guthrie"/>
+    <ClienteNuevo Identificacion="175134" Nombre="Brent Mejia"/>
+    <ClienteNuevo Identificacion="338692" Nombre="Agatha Dickinson"/>
+    <ClienteNuevo Identificacion="237638" Nombre="Antony Lewis"/>
+    <ClienteNuevo Identificacion="139556" Nombre="Samina Schaefer"/>
+    <NuevoContrato Identificacion="338692" Numero="65554449" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="175134" Numero="65558154" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="258679" Numero="65550772" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="139556" Numero="75557633" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="237638" Numero="85558154" TipoTarifa="5"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="911" Inicio="11:21" Fin="11:36"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="85551324" Inicio="00:33" Fin="06:37"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="85557077" Inicio="06:50" Fin="06:50"/>
+    <LlamadaTelefonica NumeroDe="65556336" NumeroA="65558023" Inicio="23:57" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="65558023" Inicio="15:35" Fin="17:49"/>
+    <LlamadaTelefonica NumeroDe="65556336" NumeroA="65558291" Inicio="01:32" Fin="02:52"/>
+    <UsoDatos Numero="75555459" CantMegas="45.52"/>
+    <UsoDatos Numero="65558344" CantMegas="12.33"/>
+    <UsoDatos Numero="65550772" CantMegas="8.31"/>
+    <UsoDatos Numero="75555814" CantMegas="46.04"/>
+    <UsoDatos Numero="65550772" CantMegas="16.62"/>
+    <UsoDatos Numero="85551324" CantMegas="30.24"/>
+    <UsoDatos Numero="85554993" CantMegas="7.21"/>
+    <UsoDatos Numero="65558743" CantMegas="47.19"/>
+    <UsoDatos Numero="65554410" CantMegas="7.92"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-21">
+    <ClienteNuevo Identificacion="219250" Nombre="Saba Cochran"/>
+    <ClienteNuevo Identificacion="271732" Nombre="Dustin Marriott"/>
+    <ClienteNuevo Identificacion="155019" Nombre="Byron Draper"/>
+    <NuevoContrato Identificacion="155019" Numero="65557986" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="271732" Numero="65558927" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="219250" Numero="75556355" TipoTarifa="5"/>
+    <RelacionFamiliar IdentificacionDe="155019" IdentificacionA="271732" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="75552106" Inicio="10:06" Fin="12:35"/>
+    <LlamadaTelefonica NumeroDe="65550572" NumeroA="65551245" Inicio="23:42" Fin="23:54"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="65558291" Inicio="02:56" Fin="04:57"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="85557202" Inicio="11:48" Fin="16:59"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85558939" Inicio="00:11" Fin="06:27"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="85558521" Inicio="05:30" Fin="09:33"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="65551923" Inicio="13:34" Fin="17:54"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="75551579" Inicio="16:16" Fin="21:33"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85554422" Inicio="04:38" Fin="07:55"/>
+    <UsoDatos Numero="85558154" CantMegas="7.84"/>
+    <UsoDatos Numero="75558748" CantMegas="17.29"/>
+    <UsoDatos Numero="75552607" CantMegas="36.31"/>
+    <UsoDatos Numero="75558748" CantMegas="19.59"/>
+    <UsoDatos Numero="65558344" CantMegas="46.15"/>
+    <UsoDatos Numero="65556756" CantMegas="44.57"/>
+    <UsoDatos Numero="85556960" CantMegas="7.62"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-22">
+    <ClienteNuevo Identificacion="356862" Nombre="Damian Cantrell"/>
+    <ClienteNuevo Identificacion="323307" Nombre="Sohail Schroeder"/>
+    <NuevoContrato Identificacion="356862" Numero="85556000" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="323307" Numero="75553912" TipoTarifa="4"/>
+    <RelacionFamiliar IdentificacionDe="323307" IdentificacionA="356862" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="110" Inicio="23:17" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="65556336" Inicio="14:09" Fin="18:33"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="85558521" Inicio="04:51" Fin="09:57"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="85550549" Inicio="17:02" Fin="21:50"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65552519" Inicio="11:57" Fin="11:58"/>
+    <UsoDatos Numero="75550871" CantMegas="29.6"/>
+    <UsoDatos Numero="85554398" CantMegas="19.81"/>
+    <UsoDatos Numero="65558628" CantMegas="45.57"/>
+    <UsoDatos Numero="65558023" CantMegas="14.24"/>
+    <UsoDatos Numero="85554993" CantMegas="25.86"/>
+    <UsoDatos Numero="85558939" CantMegas="40.98"/>
+    <UsoDatos Numero="75554666" CantMegas="5.76"/>
+    <UsoDatos Numero="65558154" CantMegas="27.43"/>
+    <UsoDatos Numero="85558154" CantMegas="47.53"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-23">
+    <ClienteNuevo Identificacion="265327" Nombre="Cavan Morgan"/>
+    <ClienteNuevo Identificacion="265950" Nombre="Simona Bradley"/>
+    <ClienteNuevo Identificacion="340111" Nombre="Kyan Logan"/>
+    <NuevoContrato Identificacion="340111" Numero="85550863" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="265950" Numero="65551455" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="265327" Numero="75555561" TipoTarifa="4"/>
+    <RelacionFamiliar IdentificacionDe="265950" IdentificacionA="265327" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="75557017" Inicio="03:56" Fin="05:57"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="75551579" Inicio="22:34" Fin="23:35"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="65554449" Inicio="14:31" Fin="17:41"/>
+    <LlamadaTelefonica NumeroDe="65556561" NumeroA="75554666" Inicio="20:44" Fin="22:57"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="75555814" Inicio="09:17" Fin="13:36"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="75552607" Inicio="04:29" Fin="11:35"/>
+    <UsoDatos Numero="65551574" CantMegas="20.01"/>
+    <UsoDatos Numero="75557017" CantMegas="5.54"/>
+    <UsoDatos Numero="65556756" CantMegas="47.74"/>
+    <UsoDatos Numero="65550772" CantMegas="44.61"/>
+    <UsoDatos Numero="75550871" CantMegas="14.04"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-24">
+    <ClienteNuevo Identificacion="215109" Nombre="Elwood Parkinson"/>
+    <ClienteNuevo Identificacion="138466" Nombre="Izaac Burns"/>
+    <NuevoContrato Identificacion="138466" Numero="75551311" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="215109" Numero="80065552676" TipoTarifa="8"/>
+    <LlamadaTelefonica NumeroDe="65558927" NumeroA="85550863" Inicio="21:06" Fin="22:35"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="65551245" Inicio="02:06" Fin="09:12"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="65552519" Inicio="19:38" Fin="19:38"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="85558521" Inicio="10:44" Fin="13:46"/>
+    <UsoDatos Numero="85558939" CantMegas="16.03"/>
+    <UsoDatos Numero="65552519" CantMegas="9.44"/>
+    <UsoDatos Numero="75553193" CantMegas="41.88"/>
+    <UsoDatos Numero="85553586" CantMegas="21.1"/>
+    <UsoDatos Numero="65558743" CantMegas="40.5"/>
+    <UsoDatos Numero="85551324" CantMegas="43.42"/>
+    <UsoDatos Numero="75554666" CantMegas="16.93"/>
+    <UsoDatos Numero="85553051" CantMegas="1.39"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-25">
+    <ClienteNuevo Identificacion="392638" Nombre="Arda Rivers"/>
+    <ClienteNuevo Identificacion="149905" Nombre="Jannat Mansell"/>
+    <ClienteNuevo Identificacion="138332" Nombre="Amelia Choi"/>
+    <ClienteNuevo Identificacion="366245" Nombre="Lemar Timms"/>
+    <NuevoContrato Identificacion="149905" Numero="75558138" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="138332" Numero="85551170" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="366245" Numero="90065551658" TipoTarifa="8"/>
+    <NuevoContrato Identificacion="392638" Numero="65556714" TipoTarifa="1"/>
+    <RelacionFamiliar IdentificacionDe="138332" IdentificacionA="392638" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="85557677" Inicio="07:00" Fin="09:32"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="85558939" Inicio="19:51" Fin="19:58"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="65556714" Inicio="20:46" Fin="23:48"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65559667" Inicio="20:21" Fin="23:55"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="75553193" Inicio="12:29" Fin="17:31"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="75555459" Inicio="04:33" Fin="07:37"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65558743" Inicio="01:41" Fin="06:45"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="85557677" Inicio="15:28" Fin="22:54"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="65556756" Inicio="20:34" Fin="20:58"/>
+    <UsoDatos Numero="65554851" CantMegas="5.25"/>
+    <UsoDatos Numero="65552519" CantMegas="10.17"/>
+    <UsoDatos Numero="75553193" CantMegas="13.73"/>
+    <UsoDatos Numero="75552106" CantMegas="17.56"/>
+    <UsoDatos Numero="65551574" CantMegas="2.86"/>
+    <UsoDatos Numero="65558154" CantMegas="44.01"/>
+    <UsoDatos Numero="65556768" CantMegas="20.25"/>
+    <UsoDatos Numero="85550863" CantMegas="21.33"/>
+    <UsoDatos Numero="85556960" CantMegas="22.86"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-26">
+    <ClienteNuevo Identificacion="377667" Nombre="Gertrude Roberts"/>
+    <ClienteNuevo Identificacion="164357" Nombre="Ayra Berg"/>
+    <NuevoContrato Identificacion="164357" Numero="75559467" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="377667" Numero="75551559" TipoTarifa="4"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="911" Inicio="15:07" Fin="15:51"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="110" Inicio="15:07" Fin="15:41"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="75553737" Inicio="05:27" Fin="11:47"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="75554666" Inicio="19:43" Fin="21:56"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="85554993" Inicio="02:38" Fin="06:41"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="75551579" Inicio="23:38" Fin="23:52"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="75551311" Inicio="15:07" Fin="15:51"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="65556756" Inicio="11:01" Fin="17:48"/>
+    <UsoDatos Numero="75551579" CantMegas="35.06"/>
+    <UsoDatos Numero="65551923" CantMegas="21.29"/>
+    <UsoDatos Numero="75553737" CantMegas="16.63"/>
+    <UsoDatos Numero="65558154" CantMegas="44.79"/>
+    <UsoDatos Numero="85558154" CantMegas="30.34"/>
+    <UsoDatos Numero="75557827" CantMegas="37.47"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-27">
+    <ClienteNuevo Identificacion="387206" Nombre="Carole Kearney"/>
+    <ClienteNuevo Identificacion="352094" Nombre="Kierran Stanton"/>
+    <NuevoContrato Identificacion="387206" Numero="90085551959" TipoTarifa="9"/>
+    <NuevoContrato Identificacion="352094" Numero="80075551361" TipoTarifa="7"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="65558628" Inicio="00:45" Fin="07:46"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="65551245" Inicio="19:00" Fin="21:28"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="75557867" Inicio="21:12" Fin="22:41"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="85558521" Inicio="19:02" Fin="22:09"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65551923" Inicio="18:14" Fin="19:37"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="85550863" Inicio="14:22" Fin="14:34"/>
+    <LlamadaTelefonica NumeroDe="65551455" NumeroA="65551923" Inicio="15:29" Fin="22:36"/>
+    <UsoDatos Numero="85551365" CantMegas="33.33"/>
+    <UsoDatos Numero="65559667" CantMegas="30.59"/>
+    <UsoDatos Numero="75559467" CantMegas="9.32"/>
+    <UsoDatos Numero="75557633" CantMegas="3.17"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-28">
+    <ClienteNuevo Identificacion="360779" Nombre="Kathleen Talley"/>
+    <ClienteNuevo Identificacion="321742" Nombre="Rajan Shields"/>
+    <ClienteNuevo Identificacion="229651" Nombre="Sommer Poole"/>
+    <NuevoContrato Identificacion="229651" Numero="80075551256" TipoTarifa="7"/>
+    <NuevoContrato Identificacion="360779" Numero="75550026" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="321742" Numero="65559739" TipoTarifa="1"/>
+    <RelacionFamiliar IdentificacionDe="321742" IdentificacionA="360779" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="65559739" Inicio="07:35" Fin="14:39"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="75558138" Inicio="15:35" Fin="16:42"/>
+    <LlamadaTelefonica NumeroDe="65556561" NumeroA="65550572" Inicio="04:06" Fin="04:45"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="65558628" Inicio="00:21" Fin="04:48"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="65556768" Inicio="03:00" Fin="08:25"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="75555561" Inicio="13:41" Fin="14:52"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="75559467" Inicio="16:19" Fin="17:23"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="75553737" Inicio="00:03" Fin="06:30"/>
+    <LlamadaTelefonica NumeroDe="75555814" NumeroA="75553193" Inicio="04:33" Fin="06:53"/>
+    <UsoDatos Numero="65551143" CantMegas="1.81"/>
+    <UsoDatos Numero="65551245" CantMegas="6.2"/>
+    <UsoDatos Numero="65550772" CantMegas="24.12"/>
+    <UsoDatos Numero="75553193" CantMegas="8.48"/>
+    <UsoDatos Numero="65556714" CantMegas="26.54"/>
+    <UsoDatos Numero="65554410" CantMegas="18.99"/>
+    <UsoDatos Numero="75559467" CantMegas="30.21"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-02-29">
+    <ClienteNuevo Identificacion="334066" Nombre="Aron Emerson"/>
+    <ClienteNuevo Identificacion="354401" Nombre="Kishan Cross"/>
+    <ClienteNuevo Identificacion="314420" Nombre="Jaeden Kirk"/>
+    <ClienteNuevo Identificacion="260124" Nombre="Mayson Pollard"/>
+    <ClienteNuevo Identificacion="117496" Nombre="Abdallah Jimenez"/>
+    <NuevoContrato Identificacion="117496" Numero="85559427" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="354401" Numero="75557701" TipoTarifa="3"/>
+    <NuevoContrato Identificacion="260124" Numero="65554175" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="314420" Numero="75554036" TipoTarifa="2"/>
+    <NuevoContrato Identificacion="334066" Numero="80065558631" TipoTarifa="8"/>
+    <RelacionFamiliar IdentificacionDe="117496" IdentificacionA="354401" TipoRelacion="2"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="75550026" Inicio="07:15" Fin="12:18"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="75555459" Inicio="23:03" Fin="23:04"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="75553979" Inicio="01:10" Fin="05:10"/>
+    <LlamadaTelefonica NumeroDe="65558927" NumeroA="65550471" Inicio="17:04" Fin="23:21"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="85551365" Inicio="19:51" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="65558927" Inicio="00:10" Fin="05:37"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="85554398" Inicio="14:18" Fin="20:57"/>
+    <UsoDatos Numero="65556756" CantMegas="10.85"/>
+    <UsoDatos Numero="85551170" CantMegas="41.68"/>
+    <UsoDatos Numero="85550549" CantMegas="39.33"/>
+    <UsoDatos Numero="75553979" CantMegas="24.89"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-01">
+    <ClienteNuevo Identificacion="217646" Nombre="Nathanial Macdonald"/>
+    <ClienteNuevo Identificacion="136605" Nombre="Nela Regan"/>
+    <ClienteNuevo Identificacion="199936" Nombre="Mae Hobbs"/>
+    <ClienteNuevo Identificacion="123171" Nombre="Nettie Hansen"/>
+    <NuevoContrato Identificacion="199936" Numero="75557414" TipoTarifa="1"/>
+    <NuevoContrato Identificacion="217646" Numero="75550396" TipoTarifa="5"/>
+    <NuevoContrato Identificacion="123171" Numero="80075554764" TipoTarifa="7"/>
+    <NuevoContrato Identificacion="136605" Numero="75554781" TipoTarifa="2"/>
+    <RelacionFamiliar IdentificacionDe="136605" IdentificacionA="217646" TipoRelacion="1"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65554449" Inicio="02:39" Fin="03:54"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="65558023" Inicio="21:03" Fin="21:40"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="75557017" Inicio="16:31" Fin="22:48"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="75553979" Inicio="07:04" Fin="07:55"/>
+    <LlamadaTelefonica NumeroDe="85557202" NumeroA="75554036" Inicio="14:43" Fin="20:53"/>
+    <UsoDatos Numero="75550396" CantMegas="42.86"/>
+    <UsoDatos Numero="75552106" CantMegas="45.57"/>
+    <UsoDatos Numero="75556355" CantMegas="46.88"/>
+    <UsoDatos Numero="65556756" CantMegas="14.3"/>
+    <UsoDatos Numero="65556561" CantMegas="12.43"/>
+    <UsoDatos Numero="65558628" CantMegas="17.53"/>
+    <PagoFactura Numero="85558939"/>
+    <PagoFactura Numero="65550471"/>
+    <PagoFactura Numero="90065559901"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-02">
+    <ClienteNuevo Identificacion="126809" Nombre="Esmai Wagstaff"/>
+    <ClienteNuevo Identificacion="343411" Nombre="Arooj Ryan"/>
+    <NuevoContrato Identificacion="126809" Numero="85558397" TipoTarifa="4"/>
+    <NuevoContrato Identificacion="343411" Numero="65559714" TipoTarifa="1"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="75550871" Inicio="19:23" Fin="21:58"/>
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="75556355" Inicio="14:20" Fin="18:42"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65558344" Inicio="12:42" Fin="13:50"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="85558154" Inicio="13:04" Fin="14:38"/>
+    <UsoDatos Numero="75551311" CantMegas="6.19"/>
+    <UsoDatos Numero="65550471" CantMegas="28.06"/>
+    <UsoDatos Numero="85550549" CantMegas="39.77"/>
+    <UsoDatos Numero="65559714" CantMegas="26.2"/>
+    <UsoDatos Numero="75550026" CantMegas="43.39"/>
+    <UsoDatos Numero="85557077" CantMegas="14.26"/>
+    <UsoDatos Numero="85558521" CantMegas="26.14"/>
+    <UsoDatos Numero="75558138" CantMegas="40.67"/>
+    <PagoFactura Numero="85558521"/>
+    <PagoFactura Numero="65551143"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-03">
+    <ClienteNuevo Identificacion="367468" Nombre="Mariya Osborn"/>
+    <ClienteNuevo Identificacion="391155" Nombre="Griff Harrison"/>
+    <NuevoContrato Identificacion="367468" Numero="75558707" TipoTarifa="6"/>
+    <NuevoContrato Identificacion="391155" Numero="65550423" TipoTarifa="6"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="75557017" Inicio="04:26" Fin="11:40"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="75556355" Inicio="00:51" Fin="05:58"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="75557827" Inicio="00:31" Fin="03:47"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="75558859" Inicio="02:56" Fin="04:57"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="85550549" Inicio="20:32" Fin="21:49"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="65556561" Inicio="17:23" Fin="21:30"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="85558521" Inicio="00:39" Fin="04:52"/>
+    <UsoDatos Numero="65550471" CantMegas="7.92"/>
+    <UsoDatos Numero="75558859" CantMegas="5.99"/>
+    <UsoDatos Numero="85556000" CantMegas="20.07"/>
+    <UsoDatos Numero="65558743" CantMegas="36.37"/>
+    <PagoFactura Numero="75558859"/>
+    <PagoFactura Numero="65554137"/>
+
+    <PagoFactura Numero="65551923"/>
+    <PagoFactura Numero="65558743"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-04">
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="85558939" Inicio="03:48" Fin="06:56"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="75557827" Inicio="08:55" Fin="13:59"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="75555814" Inicio="04:41" Fin="07:43"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="65556756" Inicio="02:22" Fin="03:33"/>
+    <UsoDatos Numero="65550423" CantMegas="25.91"/>
+    <UsoDatos Numero="65554137" CantMegas="18.42"/>
+    <UsoDatos Numero="85557202" CantMegas="10.69"/>
+    <UsoDatos Numero="85558521" CantMegas="45.1"/>
+    <UsoDatos Numero="75554666" CantMegas="48.83"/>
+    <UsoDatos Numero="75554036" CantMegas="23.6"/>
+    <PagoFactura Numero="85551324"/>
+    <PagoFactura Numero="75552607"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-05">
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65558397" Inicio="05:06" Fin="07:19"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65558023" Inicio="19:33" Fin="22:39"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="85551170" Inicio="10:23" Fin="11:33"/>
+    <LlamadaTelefonica NumeroDe="75558138" NumeroA="65556756" Inicio="11:30" Fin="12:58"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="85550549" Inicio="23:48" Fin="23:58"/>
+    <LlamadaTelefonica NumeroDe="65554175" NumeroA="85550549" Inicio="21:14" Fin="23:41"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="75552106" Inicio="13:20" Fin="17:26"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="75557414" Inicio="12:03" Fin="17:58"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="85551365" Inicio="18:28" Fin="18:38"/>
+    <UsoDatos Numero="85554398" CantMegas="20.69"/>
+    <UsoDatos Numero="65556714" CantMegas="44.37"/>
+    <UsoDatos Numero="85558939" CantMegas="44.58"/>
+    <UsoDatos Numero="8 5558939" CantMegas="37.01"/>
+    <UsoDatos Numero="65554175" CantMegas="30.13"/>
+    <UsoDatos Numero="75554666" CantMegas="38.24"/>
+    <UsoDatos Numero="65559714" CantMegas="37.51"/>
+    <UsoDatos Numero="75558138" CantMegas="12.05"/>
+    <UsoDatos Numero="85551365" CantMegas="37.92"/>
+    <PagoFactura Numero="75550871"/>
+    <PagoFactura Numero="65556756"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-06">
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="65557986" Inicio="23:29" Fin="23:31"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="75557017" Inicio="01:04" Fin="04:35"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="65558628" Inicio="09:17" Fin="12:27"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="85557202" Inicio="18:13" Fin="22:26"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="65551923" Inicio="04:04" Fin="11:49"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="65558023" Inicio="00:09" Fin="02:58"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="85553586" Inicio="23:41" Fin="23:53"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65553930" Inicio="09:21" Fin="11:41"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="75557414" Inicio="00:15" Fin="06:22"/>
+    <UsoDatos Numero="85550549" CantMegas="6.22"/>
+    <UsoDatos Numero="65559739" CantMegas="18.16"/>
+    <UsoDatos Numero="65551455" CantMegas="8.5"/>
+    <UsoDatos Numero="65556714" CantMegas="16.77"/>
+    <UsoDatos Numero="85558521" CantMegas="32.09"/>
+    <UsoDatos Numero="85553586" CantMegas="40.16"/>
+    <UsoDatos Numero="65551143" CantMegas="28.32"/>
+    <UsoDatos Numero="75553912" CantMegas="29.69"/>
+    <UsoDatos Numero="75557017" CantMegas="12.36"/>
+    <PagoFactura Numero="85550549"/>
+    <PagoFactura Numero="65556768"/>
+    <PagoFactura Numero="85554398"/>
+    <PagoFactura Numero="80085556884"/>
+    <PagoFactura Numero="65559667"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-07">
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="110" Inicio="13:52" Fin="13:56"/>
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="65552519" Inicio="23:32" Fin="23:33"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="65551143" Inicio="10:35" Fin="16:44"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="65550471" Inicio="14:43" Fin="18:53"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="85554993" Inicio="13:52" Fin="15:56"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65550423" Inicio="01:21" Fin="04:53"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="85557077" Inicio="09:35" Fin="09:40"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="75552106" Inicio="00:22" Fin="00:56"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="75550396" Inicio="22:16" Fin="23:39"/>
+    <UsoDatos Numero="85558939" CantMegas="38.17"/>
+    <UsoDatos Numero="65551574" CantMegas="47.08"/>
+    <UsoDatos Numero="75551579" CantMegas="9.63"/>
+    <UsoDatos Numero="65556561" CantMegas="5.45"/>
+    <PagoFactura Numero="65553930"/>
+    <PagoFactura Numero="90065551193"/>
+    <PagoFactura Numero="65554851"/>
+    <PagoFactura Numero="85557677"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-08">
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="85551324" Inicio="11:27" Fin="17:31"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="75556355" Inicio="03:14" Fin="10:53"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75550026" Inicio="12:25" Fin="16:50"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="85554993" Inicio="18:27" Fin="23:41"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="65558743" Inicio="03:14" Fin="04:21"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="65556561" Inicio="23:57" Fin="23:58"/>
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="85554398" Inicio="17:18" Fin="17:47"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="65556756" Inicio="00:54" Fin="07:55"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="75553737" Inicio="11:36" Fin="12:54"/>
+    <UsoDatos Numero="85551170" CantMegas="16.11"/>
+    <UsoDatos Numero="65554449" CantMegas="1.59"/>
+    <UsoDatos Numero="65550572" CantMegas="3.65"/>
+    <UsoDatos Numero="65550572" CantMegas="24.73"/>
+    <UsoDatos Numero="75557701" CantMegas="41.85"/>
+    <UsoDatos Numero="65558291" CantMegas="25.7"/>
+    <PagoFactura Numero="65556561"/>
+    <PagoFactura Numero="65558023"/>
+    <PagoFactura Numero="65551245"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-09">
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="85551365" Inicio="16:08" Fin="17:23"/>
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="75558748" Inicio="03:05" Fin="03:43"/>
+    <LlamadaTelefonica NumeroDe="65552519" NumeroA="75552607" Inicio="12:22" Fin="14:56"/>
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="75557701" Inicio="03:45" Fin="06:49"/>
+    <UsoDatos Numero="75551559" CantMegas="27.26"/>
+    <UsoDatos Numero="75553912" CantMegas="31.49"/>
+    <UsoDatos Numero="75553912" CantMegas="37.89"/>
+    <UsoDatos Numero="65556561" CantMegas="18.9"/>
+    <UsoDatos Numero="75557017" CantMegas="23.63"/>
+    <UsoDatos Numero="75552607" CantMegas="36.43"/>
+    <UsoDatos Numero="65551923" CantMegas="34.06"/>
+    <UsoDatos Numero="85551324" CantMegas="33.96"/>
+    <UsoDatos Numero="75554036" CantMegas="42.22"/>
+    <PagoFactura Numero="85553051"/>
+    <PagoFactura Numero="85553586"/>
+    <PagoFactura Numero="65554410"/>
+    <PagoFactura Numero="80075554426"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-10">
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="85558154" Inicio="05:08" Fin="06:39"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="85557202" Inicio="20:38" Fin="23:46"/>
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="65558397" Inicio="06:20" Fin="12:45"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="65554175" Inicio="04:05" Fin="04:40"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="75554781" Inicio="13:32" Fin="18:50"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="75554781" Inicio="02:05" Fin="05:52"/>
+    <LlamadaTelefonica NumeroDe="75551311" NumeroA="75559467" Inicio="09:54" Fin="11:56"/>
+    <UsoDatos Numero="75553912" CantMegas="4.8"/>
+    <UsoDatos Numero="85554398" CantMegas="40.54"/>
+    <UsoDatos Numero="85554993" CantMegas="31.89"/>
+    <UsoDatos Numero="75554666" CantMegas="49.81"/>
+    <UsoDatos Numero="85556000" CantMegas="24.24"/>
+    <UsoDatos Numero="65557986" CantMegas="27.45"/>
+    <UsoDatos Numero="75558138" CantMegas="28.32"/>
+    <UsoDatos Numero="85558154" CantMegas="6.12"/>
+    <UsoDatos Numero="65550423" CantMegas="2.34"/>
+    <PagoFactura Numero="80085559081"/>
+    <PagoFactura Numero="75553737"/>
+    <PagoFactura Numero="65550572"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-11">
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="85551170" Inicio="00:53" Fin="00:59"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="75559467" Inicio="16:32" Fin="22:48"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="75554781" Inicio="16:05" Fin="19:59"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="75557701" Inicio="14:41" Fin="21:45"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="65550471" Inicio="16:13" Fin="22:48"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="65554851" Inicio="13:54" Fin="19:57"/>
+    <UsoDatos Numero="75555561" CantMegas="9.58"/>
+    <UsoDatos Numero="65554137" CantMegas="29.09"/>
+    <UsoDatos Numero="75555561" CantMegas="21.21"/>
+    <UsoDatos Numero="65550423" CantMegas="41.44"/>
+    <UsoDatos Numero="75553193" CantMegas="16.1"/>
+    <UsoDatos Numero="75551579" CantMegas="11.32"/>
+    <PagoFactura Numero="75557867"/>
+    <PagoFactura Numero="90085556932"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-12">
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="75553912" Inicio="13:41" Fin="20:53"/>
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="85551324" Inicio="07:27" Fin="11:55"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="65556768" Inicio="09:15" Fin="13:22"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="75558859" Inicio="00:15" Fin="00:17"/>
+    <LlamadaTelefonica NumeroDe="75553193" NumeroA="85554993" Inicio="18:43" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="75550871" Inicio="13:38" Fin="13:52"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="65558023" Inicio="17:08" Fin="21:14"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="65558927" Inicio="02:39" Fin="03:54"/>
+    <UsoDatos Numero="65551455" CantMegas="29.49"/>
+    <UsoDatos Numero="75550026" CantMegas="40.74"/>
+    <UsoDatos Numero="65558628" CantMegas="45.27"/>
+    <UsoDatos Numero="75553912" CantMegas="42.72"/>
+    <UsoDatos Numero="75557414" CantMegas="44.55"/>
+    <UsoDatos Numero="65551245" CantMegas="21.75"/>
+    <UsoDatos Numero="65551574" CantMegas="40.09"/>
+    <PagoFactura Numero="75557827"/>
+    <PagoFactura Numero="65551574"/>
+    <PagoFactura Numero="90075558865"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-13">
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="85554422" Inicio="14:33" Fin="19:37"/>
+    <LlamadaTelefonica NumeroDe="85554398" NumeroA="65558743" Inicio="05:15" Fin="09:32"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="65558291" Inicio="21:24" Fin="22:51"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="75552607" Inicio="13:25" Fin="16:31"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="75553737" Inicio="13:27" Fin="18:28"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="65556768" Inicio="08:50" Fin="13:56"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="85558154" Inicio="14:40" Fin="16:41"/>
+    <LlamadaTelefonica NumeroDe="65558628" NumeroA="75554666" Inicio="14:42" Fin="14:55"/>
+    <UsoDatos Numero="85556960" CantMegas="33.58"/>
+    <UsoDatos Numero="85554398" CantMegas="44.11"/>
+    <UsoDatos Numero="65552519" CantMegas="28.42"/>
+    <UsoDatos Numero="65559739" CantMegas="37.6"/>
+    <UsoDatos Numero="85550863" CantMegas="11.14"/>
+    <UsoDatos Numero="75557827" CantMegas="7.62"/>
+    <PagoFactura Numero="65558291"/>
+    <PagoFactura Numero="85556960"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-14">
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="65554137" Inicio="05:40" Fin="06:42"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="75550396" Inicio="07:46" Fin="07:51"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="75558138" Inicio="07:33" Fin="08:45"/>
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="75554781" Inicio="23:28" Fin="23:56"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="65550471" Inicio="13:14" Fin="15:46"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="75553912" Inicio="00:40" Fin="01:50"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="65558927" Inicio="11:07" Fin="14:26"/>
+    <UsoDatos Numero="75555814" CantMegas="10.34"/>
+    <UsoDatos Numero="65550772" CantMegas="2.06"/>
+    <UsoDatos Numero="75558138" CantMegas="15.62"/>
+    <UsoDatos Numero="65554137" CantMegas="28.83"/>
+    <UsoDatos Numero="75557017" CantMegas="45.18"/>
+    <UsoDatos Numero="85553051" CantMegas="39.54"/>
+    <UsoDatos Numero="85550863" CantMegas="23.49"/>
+    <PagoFactura Numero="85554993"/>
+    <PagoFactura Numero="75557017"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-15">
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="85556000" Inicio="22:46" Fin="23:57"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="75557017" Inicio="01:20" Fin="02:30"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85559427" Inicio="15:52" Fin="20:57"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="85551170" Inicio="14:21" Fin="16:30"/>
+    <UsoDatos Numero="65558927" CantMegas="44.57"/>
+    <UsoDatos Numero="75551311" CantMegas="35.62"/>
+    <UsoDatos Numero="75553979" CantMegas="49.86"/>
+    <UsoDatos Numero="75558707" CantMegas="1.29"/>
+    <UsoDatos Numero="65554851" CantMegas="46.34"/>
+    <UsoDatos Numero="65551143" CantMegas="14.78"/>
+    <UsoDatos Numero="85559427" CantMegas="18.3"/>
+    <PagoFactura Numero="75555814"/>
+    <PagoFactura Numero="75552106"/>
+    <PagoFactura Numero="75555459"/>
+    <PagoFactura Numero="85551365"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-16">
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="85551324" Inicio="15:50" Fin="22:52"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="65558344" Inicio="15:19" Fin="15:39"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65554410" Inicio="20:39" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="65551143" Inicio="10:42" Fin="16:51"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="75552106" Inicio="09:42" Fin="11:52"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="85557077" Inicio="17:16" Fin="23:32"/>
+    <LlamadaTelefonica NumeroDe="85554398" NumeroA="65554449" Inicio="20:17" Fin="23:37"/>
+    <LlamadaTelefonica NumeroDe="65556336" NumeroA="85556000" Inicio="05:24" Fin="06:31"/>
+    <UsoDatos Numero="85557202" CantMegas="16.04"/>
+    <UsoDatos Numero="85558397" CantMegas="37.02"/>
+    <UsoDatos Numero="65551143" CantMegas="11.58"/>
+    <UsoDatos Numero="85558154" CantMegas="33.0"/>
+    <UsoDatos Numero="65558291" CantMegas="36.01"/>
+    <UsoDatos Numero="75550871" CantMegas="42.29"/>
+    <UsoDatos Numero="65559714" CantMegas="14.71"/>
+    <PagoFactura Numero="75553193"/>
+    <PagoFactura Numero="75553979"/>
+    <PagoFactura Numero="85557077"/>
+    <PagoFactura Numero="65558344"/>
+    <PagoFactura Numero="65552519"/>
+    <PagoFactura Numero="65559657"/>
+    <PagoFactura Numero="65556336"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-17">
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="75555561" Inicio="00:01" Fin="07:36"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="85553586" Inicio="04:54" Fin="08:59"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="75557414" Inicio="23:40" Fin="23:53"/>
+    <LlamadaTelefonica NumeroDe="75550026" NumeroA="65558927" Inicio="16:41" Fin="19:48"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="75554666" Inicio="03:45" Fin="10:57"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="75555561" Inicio="18:34" Fin="18:53"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="85558939" Inicio="04:54" Fin="11:57"/>
+    <UsoDatos Numero="85551365" CantMegas="33.58"/>
+    <UsoDatos Numero="75557867" CantMegas="32.49"/>
+    <UsoDatos Numero="75551579" CantMegas="14.98"/>
+    <UsoDatos Numero="75556355" CantMegas="47.19"/>
+    <UsoDatos Numero="75553737" CantMegas="31.63"/>
+    <UsoDatos Numero="65550772" CantMegas="20.26"/>
+    <UsoDatos Numero="65559657" CantMegas="18.95"/>
+    <UsoDatos Numero="65552519" CantMegas="18.35"/>
+    <PagoFactura Numero="75558748"/>
+    <PagoFactura Numero="85554422"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-18">
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="85553586" Inicio="00:52" Fin="05:55"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="75557867" Inicio="19:07" Fin="23:46"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="75553912" Inicio="17:07" Fin="23:24"/>
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="75551559" Inicio="17:18" Fin="18:27"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="65556561" Inicio="00:23" Fin="07:27"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="85558154" Inicio="13:52" Fin="19:56"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65557986" Inicio="17:04" Fin="19:58"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="65553930" Inicio="12:29" Fin="15:34"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="65551923" Inicio="07:44" Fin="10:47"/>
+    <UsoDatos Numero="85558397" CantMegas="32.29"/>
+    <UsoDatos Numero="65554137" CantMegas="4.68"/>
+    <UsoDatos Numero="65556336" CantMegas="12.21"/>
+    <UsoDatos Numero="85558397" CantMegas="15.28"/>
+    <UsoDatos Numero="65558397" CantMegas="3.99"/>
+    <UsoDatos Numero="65558344" CantMegas="21.65"/>
+    <PagoFactura Numero="90075551089"/>
+    <PagoFactura Numero="75554666"/>
+    <PagoFactura Numero="85557202"/>
+    <PagoFactura Numero="65558344"/>
+    <PagoFactura Numero="65552519"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-19">
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85558521" Inicio="13:22" Fin="13:35"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="65550471" Inicio="23:37" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="65558927" NumeroA="85551170" Inicio="15:27" Fin="20:46"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="85557202" Inicio="18:09" Fin="23:11"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65554410" Inicio="13:13" Fin="18:44"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="75553737" Inicio="08:32" Fin="10:42"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="65550471" Inicio="07:53" Fin="14:59"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="75559467" Inicio="02:55" Fin="05:59"/>
+    <UsoDatos Numero="85558939" CantMegas="3.7"/>
+    <UsoDatos Numero="85559427" CantMegas="19.92"/>
+    <UsoDatos Numero="75552607" CantMegas="23.45"/>
+    <UsoDatos Numero="75555561" CantMegas="45.65"/>
+    <UsoDatos Numero="85558154" CantMegas="48.44"/>
+    <PagoFactura Numero="65558628"/>
+    <PagoFactura Numero="75551579"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-20">
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="75551579" Inicio="08:35" Fin="12:51"/>
+    <LlamadaTelefonica NumeroDe="65558927" NumeroA="65554851" Inicio="18:18" Fin="21:32"/>
+    <LlamadaTelefonica NumeroDe="65557986" NumeroA="65551143" Inicio="03:10" Fin="06:41"/>
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="85550863" Inicio="11:01" Fin="17:25"/>
+    <UsoDatos Numero="65558927" CantMegas="32.59"/>
+    <UsoDatos Numero="75555561" CantMegas="49.32"/>
+    <UsoDatos Numero="65550423" CantMegas="41.9"/>
+    <UsoDatos Numero="75553979" CantMegas="32.93"/>
+    <PagoFactura Numero="65554449"/>
+    <PagoFactura Numero="65558154"/>
+    <PagoFactura Numero="85558154"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-21">
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="75556355" Inicio="11:36" Fin="14:41"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="85554993" Inicio="17:04" Fin="18:12"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="85551365" Inicio="15:49" Fin="22:59"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85557677" Inicio="19:07" Fin="20:40"/>
+    <LlamadaTelefonica NumeroDe="65556561" NumeroA="65553930" Inicio="21:56" Fin="22:57"/>
+    <UsoDatos Numero="85556960" CantMegas="5.96"/>
+    <UsoDatos Numero="65558397" CantMegas="31.88"/>
+    <UsoDatos Numero="75554666" CantMegas="42.46"/>
+    <UsoDatos Numero="85554422" CantMegas="28.89"/>
+    <PagoFactura Numero="65557986"/>
+    <PagoFactura Numero="65558927"/>
+    <PagoFactura Numero="75556355"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-22">
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="75557633" Inicio="14:05" Fin="21:40"/>
+    <LlamadaTelefonica NumeroDe="65556336" NumeroA="85558154" Inicio="04:29" Fin="11:40"/>
+    <LlamadaTelefonica NumeroDe="65558927" NumeroA="65556336" Inicio="07:11" Fin="11:42"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="75550396" Inicio="19:24" Fin="22:27"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="65557986" Inicio="22:24" Fin="22:26"/>
+    <LlamadaTelefonica NumeroDe="75553193" NumeroA="85558154" Inicio="01:33" Fin="03:57"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85553051" Inicio="08:48" Fin="15:56"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="85551170" Inicio="06:17" Fin="09:18"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="85557202" Inicio="18:40" Fin="22:51"/>
+    <UsoDatos Numero="65558023" CantMegas="43.7"/>
+    <UsoDatos Numero="85557077" CantMegas="17.74"/>
+    <UsoDatos Numero="85557077" CantMegas="6.14"/>
+    <UsoDatos Numero="85551365" CantMegas="48.54"/>
+    <UsoDatos Numero="75559467" CantMegas="42.17"/>
+    <UsoDatos Numero="65554137" CantMegas="37.33"/>
+    <UsoDatos Numero="75553737" CantMegas="41.46"/>
+    <UsoDatos Numero="85551170" CantMegas="41.38"/>
+    <UsoDatos Numero="65559667" CantMegas="37.41"/>
+    <PagoFactura Numero="85556000"/>
+    <PagoFactura Numero="75553912"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-23">
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="65558344" Inicio="06:33" Fin="09:53"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75553193" Inicio="04:36" Fin="04:57"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="65559657" Inicio="09:16" Fin="10:22"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="85558154" Inicio="01:06" Fin="04:35"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="85558397" Inicio="17:46" Fin="20:51"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="85558397" Inicio="11:09" Fin="16:47"/>
+    <LlamadaTelefonica NumeroDe="65551455" NumeroA="75554666" Inicio="18:48" Fin="22:56"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="65554410" Inicio="04:12" Fin="05:21"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="65558628" Inicio="07:10" Fin="07:58"/>
+    <UsoDatos Numero="75557701" CantMegas="39.07"/>
+    <UsoDatos Numero="65556756" CantMegas="1.6"/>
+    <UsoDatos Numero="75559467" CantMegas="8.16"/>
+    <UsoDatos Numero="75557414" CantMegas="42.06"/>
+    <UsoDatos Numero="75555561" CantMegas="42.97"/>
+    <PagoFactura Numero="85550863"/>
+    <PagoFactura Numero="65551455"/>
+    <PagoFactura Numero="75555561"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-24">
+    <LlamadaTelefonica NumeroDe="65552519" NumeroA="65551245" Inicio="04:56" Fin="04:57"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="65554175" Inicio="20:05" Fin="20:14"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="75557867" Inicio="00:41" Fin="07:53"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="65550471" Inicio="19:46" Fin="22:47"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="75555561" Inicio="09:29" Fin="10:43"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="75550396" Inicio="16:17" Fin="20:51"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="85554993" Inicio="11:18" Fin="12:57"/>
+    <UsoDatos Numero="85553051" CantMegas="31.24"/>
+    <UsoDatos Numero="85550863" CantMegas="30.48"/>
+    <UsoDatos Numero="65558023" CantMegas="8.0"/>
+    <UsoDatos Numero="65558743" CantMegas="3.03"/>
+    <UsoDatos Numero="75558748" CantMegas="16.74"/>
+    <PagoFactura Numero="75551311"/>
+    <PagoFactura Numero="80065552676"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-25">
+    <LlamadaTelefonica NumeroDe="65557986" NumeroA="75557827" Inicio="20:10" Fin="21:14"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="75552106" Inicio="16:55" Fin="22:55"/>
+    <LlamadaTelefonica NumeroDe="65552519" NumeroA="85550863" Inicio="06:35" Fin="08:36"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="85559427" Inicio="23:37" Fin="23:37"/>
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="65551455" Inicio="03:53" Fin="10:58"/>
+    <UsoDatos Numero="75556355" CantMegas="3.48"/>
+    <UsoDatos Numero="75553193" CantMegas="7.37"/>
+    <UsoDatos Numero="85551324" CantMegas="42.47"/>
+    <UsoDatos Numero="75558748" CantMegas="30.7"/>
+    <PagoFactura Numero="75558138"/>
+    <PagoFactura Numero="85551170"/>
+    <PagoFactura Numero="90065551658"/>
+    <PagoFactura Numero="65556714"/>
+    <PagoFactura Numero="65550772"/>
+    <PagoFactura Numero="75557633"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-26">
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="65558397" Inicio="01:24" Fin="07:39"/>
+    <LlamadaTelefonica NumeroDe="65550423" NumeroA="75553912" Inicio="14:00" Fin="16:39"/>
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="65556561" Inicio="00:46" Fin="04:57"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="75559467" Inicio="05:13" Fin="10:47"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="75558859" Inicio="12:29" Fin="19:53"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="65550572" Inicio="00:37" Fin="07:57"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="85551365" Inicio="04:27" Fin="04:29"/>
+    <UsoDatos Numero="65556756" CantMegas="32.79"/>
+    <UsoDatos Numero="65556561" CantMegas="38.03"/>
+    <UsoDatos Numero="65551455" CantMegas="33.32"/>
+    <UsoDatos Numero="85550863" CantMegas="4.41"/>
+    <UsoDatos Numero="65559667" CantMegas="11.7"/>
+    <UsoDatos Numero="75558859" CantMegas="13.05"/>
+    <PagoFactura Numero="75559467"/>
+    <PagoFactura Numero="75551559"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-27">
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="75552607" Inicio="20:32" Fin="23:56"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="75558707" Inicio="17:57" Fin="21:59"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="65551923" Inicio="17:56" Fin="23:58"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="65559657" Inicio="16:29" Fin="22:47"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="75551579" Inicio="01:46" Fin="07:48"/>
+    <LlamadaTelefonica NumeroDe="65554175" NumeroA="85558397" Inicio="17:07" Fin="17:16"/>
+    <UsoDatos Numero="85551170" CantMegas="4.64"/>
+    <UsoDatos Numero="85556000" CantMegas="1.55"/>
+    <UsoDatos Numero="85551365" CantMegas="44.05"/>
+    <UsoDatos Numero="75550871" CantMegas="33.14"/>
+    <PagoFactura Numero="90085551959"/>
+    <PagoFactura Numero="80075551361"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-28">
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="85553586" Inicio="10:52" Fin="11:59"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65558291" Inicio="10:26" Fin="12:52"/>
+    <LlamadaTelefonica NumeroDe="65557986" NumeroA="75554666" Inicio="17:36" Fin="21:50"/>
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="75554781" Inicio="13:14" Fin="14:37"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="65558344" Inicio="05:57" Fin="10:58"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="75553737" Inicio="02:55" Fin="04:56"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="75553912" Inicio="08:22" Fin="15:34"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="75558748" Inicio="06:33" Fin="06:42"/>
+    <UsoDatos Numero="75557701" CantMegas="36.57"/>
+    <UsoDatos Numero="75554666" CantMegas="10.72"/>
+    <UsoDatos Numero="85556000" CantMegas="36.08"/>
+    <UsoDatos Numero="75558859" CantMegas="13.42"/>
+    <UsoDatos Numero="65551574" CantMegas="4.77"/>
+    <UsoDatos Numero="65556336" CantMegas="22.15"/>
+    <UsoDatos Numero="75557701" CantMegas="31.3"/>
+    <UsoDatos Numero="75555561" CantMegas="32.93"/>
+    <UsoDatos Numero="85556960" CantMegas="46.25"/>
+    <PagoFactura Numero="80075551256"/>
+    <PagoFactura Numero="75550026"/>
+    <PagoFactura Numero="65559739"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-29">
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="75551579" Inicio="20:29" Fin="21:49"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="65558291" Inicio="08:50" Fin="15:52"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="75553912" Inicio="14:22" Fin="15:40"/>
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="65556714" Inicio="19:20" Fin="23:25"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="75554666" Inicio="06:34" Fin="12:46"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="65559739" Inicio="04:10" Fin="10:46"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="75556355" Inicio="02:33" Fin="08:42"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="75554036" Inicio="02:13" Fin="08:16"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="65554851" Inicio="05:44" Fin="12:48"/>
+    <UsoDatos Numero="75557827" CantMegas="29.88"/>
+    <UsoDatos Numero="65558397" CantMegas="9.51"/>
+    <UsoDatos Numero="65558154" CantMegas="5.06"/>
+    <UsoDatos Numero="65558743" CantMegas="43.18"/>
+    <UsoDatos Numero="65556756" CantMegas="29.51"/>
+    <UsoDatos Numero="65558023" CantMegas="24.9"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-30">
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="65550572" Inicio="00:19" Fin="01:29"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="85558154" Inicio="05:49" Fin="12:54"/>
+    <LlamadaTelefonica NumeroDe="65557986" NumeroA="85559427" Inicio="12:01" Fin="14:06"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="65556768" Inicio="00:10" Fin="05:20"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="65554137" Inicio="10:20" Fin="17:53"/>
+    <LlamadaTelefonica NumeroDe="65551455" NumeroA="75551579" Inicio="16:15" Fin="17:31"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="75558707" Inicio="12:48" Fin="16:59"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="75550871" Inicio="14:38" Fin="21:58"/>
+    <UsoDatos Numero="75555561" CantMegas="3.98"/>
+    <UsoDatos Numero="65551245" CantMegas="25.65"/>
+    <UsoDatos Numero="65553930" CantMegas="4.9"/>
+    <UsoDatos Numero="75553979" CantMegas="12.72"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-03-31">
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65551245" Inicio="16:40" Fin="16:41"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="65559667" Inicio="20:11" Fin="20:46"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="65550572" Inicio="01:07" Fin="07:14"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="65556336" Inicio="14:48" Fin="16:59"/>
+    <UsoDatos Numero="75558138" CantMegas="27.7"/>
+    <UsoDatos Numero="65559667" CantMegas="10.04"/>
+    <UsoDatos Numero="75550871" CantMegas="47.96"/>
+    <UsoDatos Numero="65558291" CantMegas="44.52"/>
+    <UsoDatos Numero="65553930" CantMegas="37.99"/>
+    <UsoDatos Numero="65554137" CantMegas="33.81"/>
+    <UsoDatos Numero="65551143" CantMegas="31.09"/>
+    <UsoDatos Numero="65556336" CantMegas="14.2"/>
+    <UsoDatos Numero="65556336" CantMegas="17.57"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-01">
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="75552106" Inicio="21:21" Fin="21:41"/>
+    <LlamadaTelefonica NumeroDe="65552519" NumeroA="75557867" Inicio="06:47" Fin="07:52"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="75557827" Inicio="03:19" Fin="06:22"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="65552519" Inicio="15:21" Fin="18:36"/>
+    <LlamadaTelefonica NumeroDe="65551455" NumeroA="65550572" Inicio="04:56" Fin="09:57"/>
+    <UsoDatos Numero="75552607" CantMegas="37.47"/>
+    <UsoDatos Numero="65556336" CantMegas="38.01"/>
+    <UsoDatos Numero="75557867" CantMegas="21.56"/>
+    <UsoDatos Numero="85559427" CantMegas="33.59"/>
+    <UsoDatos Numero="85550863" CantMegas="38.13"/>
+    <UsoDatos Numero="85550549" CantMegas="3.84"/>
+    <UsoDatos Numero="65556756" CantMegas="28.78"/>
+    <UsoDatos Numero="75558138" CantMegas="15.43"/>
+    <PagoFactura Numero="85558939"/>
+    <PagoFactura Numero="65550471"/>
+    <PagoFactura Numero="90065559901"/>
+    <PagoFactura Numero="65551923"/>
+    <PagoFactura Numero="65558743"/>
+    <PagoFactura Numero="75557414"/>
+    <PagoFactura Numero="75550396"/>
+    <PagoFactura Numero="80075554764"/>
+    <PagoFactura Numero="75554781"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-02">
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85556000" Inicio="06:30" Fin="11:34"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="75555561" Inicio="00:24" Fin="07:38"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="85553586" Inicio="11:03" Fin="17:13"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="85553051" Inicio="00:29" Fin="00:48"/>
+    <UsoDatos Numero="65558291" CantMegas="32.97"/>
+    <UsoDatos Numero="65550423" CantMegas="41.48"/>
+    <UsoDatos Numero="65551143" CantMegas="28.98"/>
+    <UsoDatos Numero="85557077" CantMegas="21.12"/>
+    <UsoDatos Numero="85554398" CantMegas="44.56"/>
+    <UsoDatos Numero="65551245" CantMegas="13.67"/>
+    <UsoDatos Numero="85558154" CantMegas="44.39"/>
+    <UsoDatos Numero="65558291" CantMegas="1.91"/>
+    <PagoFactura Numero="85558521"/>
+    <PagoFactura Numero="65551143"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="85558397"/>
+    <PagoFactura Numero="65559714"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-03">
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="85558939" Inicio="17:00" Fin="18:09"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="85556000" Inicio="15:20" Fin="18:58"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="85556000" Inicio="05:09" Fin="12:56"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="85554398" Inicio="14:51" Fin="15:52"/>
+    <UsoDatos Numero="75551559" CantMegas="2.22"/>
+    <UsoDatos Numero="65554449" CantMegas="47.83"/>
+    <UsoDatos Numero="65551455" CantMegas="18.07"/>
+    <UsoDatos Numero="75557701" CantMegas="2.59"/>
+    <UsoDatos Numero="85550549" CantMegas="40.17"/>
+    <PagoFactura Numero="65558397"/>
+    <PagoFactura Numero="90085559817"/>
+    <PagoFactura Numero="75558859"/>
+    <PagoFactura Numero="65554137"/>
+    <PagoFactura Numero="65558397"/>
+    <PagoFactura Numero="90085559817"/>
+    <PagoFactura Numero="75558707"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-04">
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="85550549" Inicio="21:36" Fin="23:39"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="65556756" Inicio="13:55" Fin="16:58"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="65558927" Inicio="02:24" Fin="09:25"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="75557017" Inicio="22:15" Fin="22:18"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75558859" Inicio="03:43" Fin="06:45"/>
+    <UsoDatos Numero="85557677" CantMegas="2.38"/>
+    <UsoDatos Numero="65551143" CantMegas="12.83"/>
+    <UsoDatos Numero="65551143" CantMegas="16.07"/>
+    <UsoDatos Numero="85557677" CantMegas="29.27"/>
+    <UsoDatos Numero="85554422" CantMegas="20.94"/>
+    <UsoDatos Numero="75553912" CantMegas="2.86"/>
+    <PagoFactura Numero="85551324"/>
+    <PagoFactura Numero="75552607"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-05">
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="85558521" Inicio="00:45" Fin="04:48"/>
+    <LlamadaTelefonica NumeroDe="65556561" NumeroA="65556756" Inicio="00:45" Fin="05:54"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="65554175" Inicio="23:57" Fin="23:58"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75558707" Inicio="12:32" Fin="16:40"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="65556561" Inicio="03:37" Fin="04:41"/>
+    <LlamadaTelefonica NumeroDe="65550572" NumeroA="65558927" Inicio="07:45" Fin="10:51"/>
+    <UsoDatos Numero="85558939" CantMegas="47.75"/>
+    <UsoDatos Numero="75552607" CantMegas="14.28"/>
+    <UsoDatos Numero="85558939" CantMegas="45.67"/>
+    <UsoDatos Numero="65550772" CantMegas="11.05"/>
+    <UsoDatos Numero="85558154" CantMegas="14.71"/>
+    <PagoFactura Numero="75550871"/>
+    <PagoFactura Numero="65556756"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-06">
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="65559739" Inicio="19:37" Fin="19:46"/>
+    <LlamadaTelefonica NumeroDe="75550026" NumeroA="65551143" Inicio="01:46" Fin="04:48"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="85558397" Inicio="18:19" Fin="23:36"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="65558628" Inicio="01:33" Fin="01:48"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="65550471" Inicio="07:46" Fin="13:50"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="65558743" Inicio="21:16" Fin="23:16"/>
+    <UsoDatos Numero="75557827" CantMegas="14.96"/>
+    <UsoDatos Numero="75558707" CantMegas="35.06"/>
+    <UsoDatos Numero="65559667" CantMegas="49.85"/>
+    <UsoDatos Numero="65558291" CantMegas="48.27"/>
+    <UsoDatos Numero="65558743" CantMegas="18.45"/>
+    <UsoDatos Numero="65558628" CantMegas="26.25"/>
+    <UsoDatos Numero="75554781" CantMegas="23.14"/>
+    <UsoDatos Numero="75553193" CantMegas="21.96"/>
+    <UsoDatos Numero="85551170" CantMegas="17.33"/>
+    <PagoFactura Numero="85550549"/>
+    <PagoFactura Numero="65556768"/>
+    <PagoFactura Numero="85554398"/>
+    <PagoFactura Numero="80085556884"/>
+    <PagoFactura Numero="65559667"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-07">
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="65559739" Inicio="00:07" Fin="03:12"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="85551324" Inicio="02:42" Fin="06:58"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="75551311" Inicio="05:27" Fin="05:35"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="75558748" Inicio="18:47" Fin="20:50"/>
+    <UsoDatos Numero="65551574" CantMegas="41.65"/>
+    <UsoDatos Numero="65558023" CantMegas="23.19"/>
+    <UsoDatos Numero="65558743" CantMegas="34.98"/>
+    <UsoDatos Numero="65558927" CantMegas="8.2"/>
+    <UsoDatos Numero="65552519" CantMegas="13.38"/>
+    <UsoDatos Numero="65551143" CantMegas="39.17"/>
+    <PagoFactura Numero="65553930"/>
+    <PagoFactura Numero="90065551193"/>
+    <PagoFactura Numero="65554851"/>
+    <PagoFactura Numero="85557677"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-08">
+    <LlamadaTelefonica NumeroDe="65554175" NumeroA="85553586" Inicio="18:13" Fin="23:44"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65558743" Inicio="09:02" Fin="14:26"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="65558743" Inicio="15:31" Fin="15:32"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="65551923" Inicio="16:28" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="75557414" Inicio="02:34" Fin="08:57"/>
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="65558743" Inicio="04:06" Fin="08:26"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="75554666" Inicio="17:17" Fin="19:41"/>
+    <UsoDatos Numero="65554137" CantMegas="37.3"/>
+    <UsoDatos Numero="65556756" CantMegas="12.86"/>
+    <UsoDatos Numero="65559667" CantMegas="39.49"/>
+    <UsoDatos Numero="65559714" CantMegas="23.64"/>
+    <PagoFactura Numero="65556561"/>
+    <PagoFactura Numero="65558023"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-09">
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65550772" Inicio="23:11" Fin="23:14"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65556714" Inicio="23:45" Fin="23:46"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="75554666" Inicio="15:04" Fin="19:50"/>
+    <LlamadaTelefonica NumeroDe="75555814" NumeroA="75552106" Inicio="04:52" Fin="04:53"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="85550549" Inicio="06:08" Fin="08:49"/>
+    <LlamadaTelefonica NumeroDe="75550396" NumeroA="65556756" Inicio="02:24" Fin="05:57"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="65551923" Inicio="00:03" Fin="01:44"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="85553051" Inicio="04:31" Fin="06:52"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65556561" Inicio="00:30" Fin="07:47"/>
+    <UsoDatos Numero="85553051" CantMegas="38.67"/>
+    <UsoDatos Numero="75557867" CantMegas="3.83"/>
+    <UsoDatos Numero="75550871" CantMegas="46.63"/>
+    <UsoDatos Numero="65554137" CantMegas="18.01"/>
+    <UsoDatos Numero="65558397" CantMegas="44.87"/>
+    <UsoDatos Numero="65558291" CantMegas="49.8"/>
+    <UsoDatos Numero="65556768" CantMegas="44.62"/>
+    <PagoFactura Numero="85553051"/>
+    <PagoFactura Numero="85553586"/>
+    <PagoFactura Numero="80075554426"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-10">
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="65551245" Inicio="08:18" Fin="14:36"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65554410" Inicio="17:03" Fin="17:09"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65551455" Inicio="14:24" Fin="14:31"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="75554036" Inicio="05:43" Fin="06:55"/>
+    <UsoDatos Numero="65554175" CantMegas="23.54"/>
+    <UsoDatos Numero="75557827" CantMegas="30.16"/>
+    <UsoDatos Numero="85553051" CantMegas="47.37"/>
+    <UsoDatos Numero="65556714" CantMegas="20.49"/>
+    <UsoDatos Numero="65556756" CantMegas="44.61"/>
+    <UsoDatos Numero="75552607" CantMegas="45.73"/>
+    <UsoDatos Numero="65550772" CantMegas="17.48"/>
+    <UsoDatos Numero="85559427" CantMegas="6.46"/>
+    <PagoFactura Numero="80085559081"/>
+    <PagoFactura Numero="75553737"/>
+    <PagoFactura Numero="65550572"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-11">
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="85554422" Inicio="15:09" Fin="19:14"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="75551579" Inicio="20:05" Fin="23:08"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="85558939" Inicio="01:44" Fin="01:48"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="65554137" Inicio="06:00" Fin="11:08"/>
+    <UsoDatos Numero="85558521" CantMegas="32.45"/>
+    <UsoDatos Numero="65551923" CantMegas="18.96"/>
+    <UsoDatos Numero="65556561" CantMegas="19.65"/>
+    <UsoDatos Numero="65550423" CantMegas="34.31"/>
+    <UsoDatos Numero="75555561" CantMegas="26.41"/>
+    <UsoDatos Numero="65551455" CantMegas="41.86"/>
+    <UsoDatos Numero="75554781" CantMegas="8.65"/>
+    <UsoDatos Numero="75553912" CantMegas="2.83"/>
+    <UsoDatos Numero="75551579" CantMegas="47.59"/>
+    <PagoFactura Numero="75557867"/>
+    <PagoFactura Numero="90085556932"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-12">
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="85558521" Inicio="05:46" Fin="09:58"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65551143" Inicio="06:18" Fin="10:39"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="65558154" Inicio="03:28" Fin="07:33"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="75553912" Inicio="22:51" Fin="23:53"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="75557827" Inicio="07:04" Fin="09:18"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="75554781" Inicio="22:50" Fin="23:57"/>
+    <LlamadaTelefonica NumeroDe="65550572" NumeroA="75553193" Inicio="04:08" Fin="11:30"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="65557986" Inicio="00:56" Fin="07:59"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65558154" Inicio="14:36" Fin="15:45"/>
+    <UsoDatos Numero="65553930" CantMegas="40.64"/>
+    <UsoDatos Numero="75557867" CantMegas="10.79"/>
+    <UsoDatos Numero="85550549" CantMegas="32.83"/>
+    <UsoDatos Numero="75558707" CantMegas="22.64"/>
+    <UsoDatos Numero="85557677" CantMegas="38.68"/>
+    <PagoFactura Numero="75557827"/>
+    <PagoFactura Numero="90075558865"/>
+    <PagoFactura Numero="65559657"/>
+    <PagoFactura Numero="65556336"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-13">
+    <LlamadaTelefonica NumeroDe="65558628" NumeroA="75554666" Inicio="17:12" Fin="22:49"/>
+    <LlamadaTelefonica NumeroDe="65556336" NumeroA="75558138" Inicio="23:00" Fin="23:36"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="65554137" Inicio="18:31" Fin="23:57"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="85550863" Inicio="21:37" Fin="23:56"/>
+    <UsoDatos Numero="85557077" CantMegas="32.71"/>
+    <UsoDatos Numero="65558291" CantMegas="37.9"/>
+    <UsoDatos Numero="65551245" CantMegas="14.89"/>
+    <UsoDatos Numero="85557077" CantMegas="36.72"/>
+    <UsoDatos Numero="65559667" CantMegas="11.39"/>
+    <UsoDatos Numero="85557677" CantMegas="14.13"/>
+    <UsoDatos Numero="75556355" CantMegas="18.77"/>
+    <PagoFactura Numero="65558291"/>
+    <PagoFactura Numero="85556960"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-14">
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="85557677" Inicio="11:10" Fin="12:42"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="75550026" Inicio="18:28" Fin="23:36"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="75557017" Inicio="23:09" Fin="23:09"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="65551245" Inicio="12:11" Fin="16:49"/>
+    <UsoDatos Numero="85551365" CantMegas="29.98"/>
+    <UsoDatos Numero="85556000" CantMegas="6.19"/>
+    <UsoDatos Numero="75554666" CantMegas="1.88"/>
+    <UsoDatos Numero="85557202" CantMegas="19.23"/>
+    <UsoDatos Numero="65558743" CantMegas="22.02"/>
+    <UsoDatos Numero="65552519" CantMegas="33.6"/>
+    <UsoDatos Numero="75559467" CantMegas="25.89"/>
+    <UsoDatos Numero="65551143" CantMegas="7.08"/>
+    <PagoFactura Numero="85554993"/>
+    <PagoFactura Numero="75557017"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-15">
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="85558154" Inicio="14:15" Fin="18:57"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="85559427" Inicio="15:02" Fin="22:32"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="75557633" Inicio="11:44" Fin="14:50"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="85551170" Inicio="19:47" Fin="20:57"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="75556355" Inicio="12:50" Fin="19:59"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="65559657" Inicio="01:01" Fin="06:30"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65558927" Inicio="02:33" Fin="07:48"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="75555561" Inicio="04:35" Fin="06:49"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="75551559" Inicio="08:08" Fin="14:27"/>
+    <UsoDatos Numero="75558138" CantMegas="39.18"/>
+    <UsoDatos Numero="75559467" CantMegas="6.2"/>
+    <UsoDatos Numero="65551245" CantMegas="34.99"/>
+    <UsoDatos Numero="65550572" CantMegas="12.76"/>
+    <UsoDatos Numero="75554666" CantMegas="32.68"/>
+    <PagoFactura Numero="75555814"/>
+    <PagoFactura Numero="75552106"/>
+    <PagoFactura Numero="75555459"/>
+    <PagoFactura Numero="85551365"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-16">
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="65558023" Inicio="02:51" Fin="05:55"/>
+    <LlamadaTelefonica NumeroDe="75550026" NumeroA="75553193" Inicio="18:37" Fin="20:45"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="75553193" Inicio="22:56" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="85558939" Inicio="01:53" Fin="07:56"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65556756" Inicio="10:40" Fin="16:53"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="65559657" Inicio="13:45" Fin="20:46"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="65552519" Inicio="09:49" Fin="12:56"/>
+    <UsoDatos Numero="65558291" CantMegas="11.11"/>
+    <UsoDatos Numero="65556756" CantMegas="25.36"/>
+    <UsoDatos Numero="85558154" CantMegas="25.82"/>
+    <UsoDatos Numero="75550396" CantMegas="21.71"/>
+    <UsoDatos Numero="65558291" CantMegas="1.37"/>
+    <UsoDatos Numero="75553193" CantMegas="24.05"/>
+    <UsoDatos Numero="75551559" CantMegas="28.67"/>
+    <UsoDatos Numero="85553586" CantMegas="32.27"/>
+    <PagoFactura Numero="75553193"/>
+    <PagoFactura Numero="75553979"/>
+    <PagoFactura Numero="85557077"/>
+    <PagoFactura Numero="65551574"/>
+    <PagoFactura Numero="65558344"/>
+    <PagoFactura Numero="65552519"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-17">
+    <LlamadaTelefonica NumeroDe="65554175" NumeroA="65559667" Inicio="08:42" Fin="08:56"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="65553930" Inicio="05:03" Fin="08:07"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="75557414" Inicio="14:05" Fin="19:24"/>
+    <LlamadaTelefonica NumeroDe="75558138" NumeroA="65559667" Inicio="18:10" Fin="23:30"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="85550549" Inicio="23:20" Fin="23:36"/>
+    <UsoDatos Numero="65551923" CantMegas="4.82"/>
+    <UsoDatos Numero="75557017" CantMegas="22.72"/>
+    <UsoDatos Numero="85554993" CantMegas="39.84"/>
+    <UsoDatos Numero="65552519" CantMegas="3.55"/>
+    <UsoDatos Numero="65557986" CantMegas="31.7"/>
+    <UsoDatos Numero="75552607" CantMegas="10.55"/>
+    <UsoDatos Numero="75555459" CantMegas="20.52"/>
+    <UsoDatos Numero="65558291" CantMegas="19.77"/>
+    <PagoFactura Numero="75558748"/>
+    <PagoFactura Numero="85554422"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-18">
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="75555814" Inicio="21:20" Fin="22:25"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="75553912" Inicio="07:33" Fin="09:40"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="75553912" Inicio="09:37" Fin="15:48"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="85551324" Inicio="11:02" Fin="17:56"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="75557414" Inicio="11:50" Fin="18:53"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="65554851" Inicio="04:30" Fin="08:47"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="85559427" Inicio="17:28" Fin="22:37"/>
+    <UsoDatos Numero="65558397" CantMegas="31.58"/>
+    <UsoDatos Numero="65558927" CantMegas="28.63"/>
+    <UsoDatos Numero="65558397" CantMegas="3.09"/>
+    <UsoDatos Numero="85556960" CantMegas="33.76"/>
+    <UsoDatos Numero="75555459" CantMegas="5.17"/>
+    <UsoDatos Numero="65558344" CantMegas="31.2"/>
+    <UsoDatos Numero="75558138" CantMegas="3.15"/>
+    <UsoDatos Numero="85551170" CantMegas="41.74"/>
+    <UsoDatos Numero="65558397" CantMegas="23.35"/>
+    <PagoFactura Numero="90075551089"/>
+    <PagoFactura Numero="75554666"/>
+    <PagoFactura Numero="85557202"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-19">
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="85551324" Inicio="15:27" Fin="22:45"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="85553051" Inicio="17:29" Fin="21:49"/>
+    <LlamadaTelefonica NumeroDe="75550396" NumeroA="85550863" Inicio="17:47" Fin="22:51"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="85557677" Inicio="01:01" Fin="06:35"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="65551245" Inicio="11:30" Fin="12:47"/>
+    <UsoDatos Numero="65558927" CantMegas="23.58"/>
+    <UsoDatos Numero="85557202" CantMegas="34.08"/>
+    <UsoDatos Numero="75557701" CantMegas="47.45"/>
+    <UsoDatos Numero="65559739" CantMegas="39.03"/>
+    <UsoDatos Numero="65554410" CantMegas="5.68"/>
+    <UsoDatos Numero="75555561" CantMegas="41.31"/>
+    <UsoDatos Numero="65552519" CantMegas="26.2"/>
+    <UsoDatos Numero="85554993" CantMegas="32.15"/>
+    <PagoFactura Numero="65558628"/>
+    <PagoFactura Numero="75551579"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-20">
+    <LlamadaTelefonica NumeroDe="65550572" NumeroA="65556336" Inicio="00:23" Fin="05:25"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="85554398" Inicio="19:03" Fin="20:10"/>
+    <LlamadaTelefonica NumeroDe="65550572" NumeroA="75551579" Inicio="10:13" Fin="10:13"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="65559739" Inicio="02:42" Fin="07:42"/>
+    <LlamadaTelefonica NumeroDe="85554398" NumeroA="75553193" Inicio="16:01" Fin="16:26"/>
+    <LlamadaTelefonica NumeroDe="75550396" NumeroA="75553912" Inicio="04:33" Fin="11:37"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="85557202" Inicio="05:31" Fin="12:33"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65558628" Inicio="07:35" Fin="14:59"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65550423" Inicio="12:15" Fin="12:29"/>
+    <UsoDatos Numero="85556960" CantMegas="34.82"/>
+    <UsoDatos Numero="75558138" CantMegas="26.65"/>
+    <UsoDatos Numero="65550423" CantMegas="30.39"/>
+    <UsoDatos Numero="75557867" CantMegas="43.16"/>
+    <UsoDatos Numero="75558138" CantMegas="27.67"/>
+    <UsoDatos Numero="65550772" CantMegas="29.92"/>
+    <UsoDatos Numero="65558743" CantMegas="13.6"/>
+    <UsoDatos Numero="65551923" CantMegas="1.91"/>
+    <UsoDatos Numero="75550026" CantMegas="6.73"/>
+    <PagoFactura Numero="65554449"/>
+    <PagoFactura Numero="65558154"/>
+    <PagoFactura Numero="65550772"/>
+    <PagoFactura Numero="75557633"/>
+    <PagoFactura Numero="85558154"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-21">
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="85558397" Inicio="13:46" Fin="14:47"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="75555459" Inicio="22:32" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="75557867" NumeroA="75557414" Inicio="00:55" Fin="03:59"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="85551324" Inicio="04:40" Fin="11:49"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="75553912" Inicio="13:54" Fin="14:59"/>
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="75555459" Inicio="00:00" Fin="03:27"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="85558939" Inicio="11:19" Fin="18:20"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="85556960" Inicio="11:51" Fin="17:54"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="65558927" Inicio="23:05" Fin="23:42"/>
+    <UsoDatos Numero="65559714" CantMegas="11.21"/>
+    <UsoDatos Numero="75557701" CantMegas="25.76"/>
+    <UsoDatos Numero="85551170" CantMegas="33.63"/>
+    <UsoDatos Numero="65551455" CantMegas="25.14"/>
+    <UsoDatos Numero="85551324" CantMegas="20.0"/>
+    <PagoFactura Numero="65557986"/>
+    <PagoFactura Numero="65558927"/>
+    <PagoFactura Numero="75556355"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-22">
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="65558154" Inicio="02:13" Fin="04:41"/>
+    <LlamadaTelefonica NumeroDe="85553051" NumeroA="65554851" Inicio="23:21" Fin="23:38"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="75558859" Inicio="05:51" Fin="10:59"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="85554993" Inicio="23:14" Fin="23:28"/>
+    <LlamadaTelefonica NumeroDe="65556561" NumeroA="65551574" Inicio="21:51" Fin="22:52"/>
+    <LlamadaTelefonica NumeroDe="75558138" NumeroA="85557677" Inicio="15:21" Fin="18:23"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65554137" Inicio="18:16" Fin="23:38"/>
+    <UsoDatos Numero="65559714" CantMegas="33.8"/>
+    <UsoDatos Numero="65552519" CantMegas="41.83"/>
+    <UsoDatos Numero="65554851" CantMegas="24.98"/>
+    <UsoDatos Numero="65550572" CantMegas="20.51"/>
+    <UsoDatos Numero="65550471" CantMegas="18.49"/>
+    <PagoFactura Numero="85556000"/>
+    <PagoFactura Numero="75553912"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-23">
+    <LlamadaTelefonica NumeroDe="75555814" NumeroA="65558397" Inicio="05:33" Fin="06:40"/>
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="65554137" Inicio="13:13" Fin="17:54"/>
+    <LlamadaTelefonica NumeroDe="65557986" NumeroA="65556768" Inicio="16:39" Fin="23:44"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="75558859" Inicio="09:28" Fin="09:42"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="85558939" Inicio="12:53" Fin="16:54"/>
+    <UsoDatos Numero="65556756" CantMegas="16.58"/>
+    <UsoDatos Numero="65550572" CantMegas="11.0"/>
+    <UsoDatos Numero="65558291" CantMegas="10.04"/>
+    <UsoDatos Numero="65554175" CantMegas="1.21"/>
+    <PagoFactura Numero="85550863"/>
+    <PagoFactura Numero="65551455"/>
+    <PagoFactura Numero="75555561"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-24">
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75551579" Inicio="10:05" Fin="16:09"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65558023" Inicio="14:43" Fin="17:54"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="65554449" Inicio="07:51" Fin="11:58"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="85557077" Inicio="04:34" Fin="10:45"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="65559657" Inicio="09:02" Fin="09:30"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65558023" Inicio="11:01" Fin="16:02"/>
+    <UsoDatos Numero="75557827" CantMegas="45.15"/>
+    <UsoDatos Numero="85554398" CantMegas="23.85"/>
+    <UsoDatos Numero="65559657" CantMegas="17.43"/>
+    <UsoDatos Numero="75551311" CantMegas="37.92"/>
+    <UsoDatos Numero="85556000" CantMegas="38.29"/>
+    <UsoDatos Numero="85551170" CantMegas="43.24"/>
+    <UsoDatos Numero="75559467" CantMegas="47.91"/>
+    <UsoDatos Numero="65558023" CantMegas="11.22"/>
+    <UsoDatos Numero="65552519" CantMegas="47.26"/>
+    <PagoFactura Numero="75551311"/>
+    <PagoFactura Numero="80065552676"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-25">
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="85551324" Inicio="04:23" Fin="08:26"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="65558291" Inicio="07:05" Fin="13:22"/>
+    <LlamadaTelefonica NumeroDe="75553979" NumeroA="75552106" Inicio="00:16" Fin="05:42"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="85550863" Inicio="03:41" Fin="09:42"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="65553930" Inicio="08:25" Fin="11:31"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="75555561" Inicio="01:25" Fin="01:53"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="75554666" Inicio="00:29" Fin="06:32"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="85550549" Inicio="00:26" Fin="06:32"/>
+    <LlamadaTelefonica NumeroDe="75553193" NumeroA="85557202" Inicio="23:43" Fin="23:54"/>
+    <UsoDatos Numero="75558859" CantMegas="43.48"/>
+    <UsoDatos Numero="65558927" CantMegas="24.24"/>
+    <UsoDatos Numero="75551311" CantMegas="17.58"/>
+    <UsoDatos Numero="85556000" CantMegas="10.74"/>
+    <UsoDatos Numero="75558859" CantMegas="5.37"/>
+    <PagoFactura Numero="75558138"/>
+    <PagoFactura Numero="85551170"/>
+    <PagoFactura Numero="90065551658"/>
+    <PagoFactura Numero="65556714"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-26">
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="85558939" Inicio="12:21" Fin="17:44"/>
+    <LlamadaTelefonica NumeroDe="65558154" NumeroA="85558521" Inicio="05:40" Fin="12:45"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65558927" Inicio="00:01" Fin="04:22"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="75557701" Inicio="12:20" Fin="14:28"/>
+    <LlamadaTelefonica NumeroDe="65554175" NumeroA="65551574" Inicio="11:34" Fin="17:40"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75555814" Inicio="17:00" Fin="18:45"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="85551365" Inicio="07:12" Fin="11:22"/>
+    <UsoDatos Numero="85554993" CantMegas="41.16"/>
+    <UsoDatos Numero="75554666" CantMegas="26.15"/>
+    <UsoDatos Numero="75550871" CantMegas="27.89"/>
+    <UsoDatos Numero="65559657" CantMegas="16.2"/>
+    <UsoDatos Numero="75550026" CantMegas="16.01"/>
+    <UsoDatos Numero="75558859" CantMegas="9.54"/>
+    <UsoDatos Numero="75557701" CantMegas="26.27"/>
+    <UsoDatos Numero="65554449" CantMegas="49.34"/>
+    <UsoDatos Numero="75554036" CantMegas="36.6"/>
+    <PagoFactura Numero="75559467"/>
+    <PagoFactura Numero="75551559"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-27">
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="65554137" Inicio="17:34" Fin="18:39"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="75550026" Inicio="13:45" Fin="15:57"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="85556000" Inicio="14:37" Fin="15:50"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="75553737" Inicio="13:11" Fin="15:36"/>
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="85554993" Inicio="04:35" Fin="06:47"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85558521" Inicio="05:17" Fin="06:52"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="65556756" Inicio="18:26" Fin="19:55"/>
+    <UsoDatos Numero="75557867" CantMegas="6.27"/>
+    <UsoDatos Numero="75555561" CantMegas="48.95"/>
+    <UsoDatos Numero="85551324" CantMegas="25.69"/>
+    <UsoDatos Numero="65551245" CantMegas="38.55"/>
+    <PagoFactura Numero="90085551959"/>
+    <PagoFactura Numero="80075551361"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-28">
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="85551365" Inicio="10:50" Fin="12:59"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="65558743" Inicio="14:05" Fin="17:08"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="85554993" Inicio="21:09" Fin="23:33"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="85551365" Inicio="14:38" Fin="19:52"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="75553979" Inicio="00:38" Fin="00:58"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="75559467" Inicio="05:52" Fin="09:58"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="85551324" Inicio="23:30" Fin="23:37"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="65558023" Inicio="13:00" Fin="16:57"/>
+    <LlamadaTelefonica NumeroDe="75553193" NumeroA="75554666" Inicio="22:34" Fin="22:53"/>
+    <UsoDatos Numero="85551170" CantMegas="37.6"/>
+    <UsoDatos Numero="85554422" CantMegas="20.13"/>
+    <UsoDatos Numero="85558939" CantMegas="10.36"/>
+    <UsoDatos Numero="75555459" CantMegas="26.69"/>
+    <UsoDatos Numero="75558748" CantMegas="14.85"/>
+    <UsoDatos Numero="85558154" CantMegas="41.62"/>
+    <UsoDatos Numero="85554993" CantMegas="49.77"/>
+    <UsoDatos Numero="65556714" CantMegas="37.45"/>
+    <PagoFactura Numero="80075551256"/>
+    <PagoFactura Numero="75550026"/>
+    <PagoFactura Numero="65559739"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-29">
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="85551324" Inicio="16:28" Fin="20:46"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="75551311" Inicio="23:07" Fin="23:14"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="85557677" Inicio="21:28" Fin="22:29"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="75557867" Inicio="09:42" Fin="16:48"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="65558628" Inicio="10:14" Fin="10:16"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65556768" Inicio="12:13" Fin="19:52"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="85558154" Inicio="05:24" Fin="06:59"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="75558859" Inicio="12:33" Fin="17:57"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="65553930" Inicio="13:13" Fin="17:51"/>
+    <UsoDatos Numero="65556714" CantMegas="6.46"/>
+    <UsoDatos Numero="75552106" CantMegas="11.21"/>
+    <UsoDatos Numero="75553737" CantMegas="34.59"/>
+    <UsoDatos Numero="65558743" CantMegas="31.18"/>
+    <UsoDatos Numero="65550772" CantMegas="33.69"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-04-30">
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="75557414" Inicio="17:13" Fin="23:26"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="65550572" Inicio="22:50" Fin="23:56"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="85557202" Inicio="10:22" Fin="15:30"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="85553586" Inicio="04:05" Fin="06:37"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="65553930" Inicio="12:08" Fin="19:28"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="85558154" Inicio="00:03" Fin="00:46"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="75556355" Inicio="08:12" Fin="08:26"/>
+    <UsoDatos Numero="75555561" CantMegas="17.39"/>
+    <UsoDatos Numero="65556756" CantMegas="17.24"/>
+    <UsoDatos Numero="65551455" CantMegas="34.87"/>
+    <UsoDatos Numero="75553193" CantMegas="26.07"/>
+    <UsoDatos Numero="85557677" CantMegas="1.7"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-01">
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65559739" Inicio="08:06" Fin="10:09"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75553912" Inicio="07:17" Fin="08:30"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="65551143" Inicio="10:49" Fin="17:58"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75557633" Inicio="03:05" Fin="09:31"/>
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="75550871" Inicio="07:46" Fin="07:50"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="75557827" Inicio="04:04" Fin="10:16"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="65550471" Inicio="13:46" Fin="17:55"/>
+    <UsoDatos Numero="75557017" CantMegas="15.56"/>
+    <UsoDatos Numero="65559667" CantMegas="28.61"/>
+    <UsoDatos Numero="75553979" CantMegas="48.93"/>
+    <UsoDatos Numero="65550772" CantMegas="25.77"/>
+    <UsoDatos Numero="75555561" CantMegas="18.35"/>
+    <UsoDatos Numero="65559667" CantMegas="48.51"/>
+    <PagoFactura Numero="85558939"/>
+    <PagoFactura Numero="65550471"/>
+    <PagoFactura Numero="90065559901"/>
+    <PagoFactura Numero="65551923"/>
+    <PagoFactura Numero="65558743"/>
+    <PagoFactura Numero="75557414"/>
+    <PagoFactura Numero="75550396"/>
+    <PagoFactura Numero="80075554764"/>
+    <PagoFactura Numero="75554781"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-02">
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65556714" Inicio="07:07" Fin="10:22"/>
+    <LlamadaTelefonica NumeroDe="65558628" NumeroA="65556768" Inicio="11:14" Fin="16:21"/>
+    <LlamadaTelefonica NumeroDe="65558628" NumeroA="75551559" Inicio="23:31" Fin="23:34"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65551923" Inicio="09:28" Fin="13:38"/>
+    <LlamadaTelefonica NumeroDe="65559667" NumeroA="65550471" Inicio="22:54" Fin="22:58"/>
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="85551170" Inicio="11:03" Fin="13:50"/>
+    <LlamadaTelefonica NumeroDe="75550396" NumeroA="75557633" Inicio="15:25" Fin="21:32"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="85553051" Inicio="19:45" Fin="23:56"/>
+    <UsoDatos Numero="65558154" CantMegas="18.45"/>
+    <UsoDatos Numero="65554410" CantMegas="38.03"/>
+    <UsoDatos Numero="85553051" CantMegas="38.3"/>
+    <UsoDatos Numero="75551311" CantMegas="8.91"/>
+    <PagoFactura Numero="85558521"/>
+    <PagoFactura Numero="65551143"/>
+    <PagoFactura Numero="85558397"/>
+    <PagoFactura Numero="65559714"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-03">
+    <LlamadaTelefonica NumeroDe="85557677" NumeroA="85551170" Inicio="02:38" Fin="07:51"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="85558397" Inicio="08:04" Fin="14:18"/>
+    <LlamadaTelefonica NumeroDe="65551455" NumeroA="65558628" Inicio="10:22" Fin="10:40"/>
+    <LlamadaTelefonica NumeroDe="75551311" NumeroA="65558344" Inicio="03:37" Fin="08:59"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="65558397" Inicio="04:25" Fin="04:58"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="65556336" Inicio="06:18" Fin="06:59"/>
+    <UsoDatos Numero="65550471" CantMegas="15.03"/>
+    <UsoDatos Numero="75555459" CantMegas="43.78"/>
+    <UsoDatos Numero="75557414" CantMegas="34.88"/>
+    <UsoDatos Numero="65559714" CantMegas="45.22"/>
+    <UsoDatos Numero="75554666" CantMegas="22.56"/>
+    <UsoDatos Numero="65558023" CantMegas="11.92"/>
+    <UsoDatos Numero="85556960" CantMegas="28.52"/>
+    <UsoDatos Numero="75553979" CantMegas="32.5"/>
+    <UsoDatos Numero="85558939" CantMegas="16.89"/>
+    <PagoFactura Numero="75558859"/>
+    <PagoFactura Numero="65554137"/>
+    <PagoFactura Numero="65558397"/>
+    <PagoFactura Numero="90085559817"/>
+    <PagoFactura Numero="75558707"/>
+    <PagoFactura Numero="65550423"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-04">
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="85551324" Inicio="03:51" Fin="04:52"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="85557077" Inicio="23:14" Fin="23:17"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="85558397" Inicio="17:08" Fin="21:23"/>
+    <LlamadaTelefonica NumeroDe="85553051" NumeroA="75551559" Inicio="09:11" Fin="16:32"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65558397" Inicio="16:43" Fin="16:48"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="65554851" Inicio="05:30" Fin="10:36"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="85557202" Inicio="00:51" Fin="03:54"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="65558397" Inicio="16:47" Fin="16:54"/>
+    <UsoDatos Numero="65551455" CantMegas="11.31"/>
+    <UsoDatos Numero="65556714" CantMegas="8.3"/>
+    <UsoDatos Numero="65556768" CantMegas="48.97"/>
+    <UsoDatos Numero="65558397" CantMegas="30.73"/>
+    <UsoDatos Numero="85554398" CantMegas="17.45"/>
+    <UsoDatos Numero="85556000" CantMegas="43.21"/>
+    <UsoDatos Numero="65558154" CantMegas="28.89"/>
+    <PagoFactura Numero="85551324"/>
+    <PagoFactura Numero="75552607"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-05">
+    <LlamadaTelefonica NumeroDe="75551311" NumeroA="75558138" Inicio="17:32" Fin="21:40"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="75550026" Inicio="23:16" Fin="23:19"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="85559427" Inicio="21:02" Fin="23:33"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="65552519" Inicio="00:17" Fin="02:52"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="65551455" Inicio="02:26" Fin="08:38"/>
+    <LlamadaTelefonica NumeroDe="75555561" NumeroA="75551579" Inicio="17:01" Fin="20:56"/>
+    <UsoDatos Numero="85553586" CantMegas="12.06"/>
+    <UsoDatos Numero="75558707" CantMegas="3.09"/>
+    <UsoDatos Numero="65558743" CantMegas="42.59"/>
+    <UsoDatos Numero="75554666" CantMegas="37.63"/>
+    <PagoFactura Numero="75550871"/>
+    <PagoFactura Numero="65556756"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-06">
+    <LlamadaTelefonica NumeroDe="75553193" NumeroA="65551574" Inicio="01:01" Fin="01:25"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="75553737" Inicio="22:23" Fin="23:29"/>
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="75556355" Inicio="17:23" Fin="23:34"/>
+    <LlamadaTelefonica NumeroDe="65550423" NumeroA="85556000" Inicio="07:27" Fin="14:33"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="65554449" Inicio="06:38" Fin="11:43"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="75558748" Inicio="00:38" Fin="04:51"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="75555814" Inicio="16:14" Fin="19:20"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="65559667" Inicio="09:23" Fin="11:57"/>
+    <UsoDatos Numero="65551923" CantMegas="29.78"/>
+    <UsoDatos Numero="65558927" CantMegas="38.6"/>
+    <UsoDatos Numero="65558743" CantMegas="32.14"/>
+    <UsoDatos Numero="65554449" CantMegas="27.66"/>
+    <UsoDatos Numero="65553930" CantMegas="8.24"/>
+    <UsoDatos Numero="65554137" CantMegas="7.45"/>
+    <UsoDatos Numero="65554175" CantMegas="45.26"/>
+    <UsoDatos Numero="75554666" CantMegas="28.47"/>
+    <UsoDatos Numero="75555459" CantMegas="14.04"/>
+    <PagoFactura Numero="85550549"/>
+    <PagoFactura Numero="65556768"/>
+    <PagoFactura Numero="85554398"/>
+    <PagoFactura Numero="80085556884"/>
+    <PagoFactura Numero="65559667"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-07">
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="85550549" Inicio="14:01" Fin="15:17"/>
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="85559427" Inicio="10:03" Fin="11:41"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="65551923" Inicio="00:01" Fin="02:21"/>
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="75550396" Inicio="19:29" Fin="22:35"/>
+    <LlamadaTelefonica NumeroDe="85553051" NumeroA="75553193" Inicio="20:09" Fin="23:52"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="85558939" Inicio="08:32" Fin="10:48"/>
+    <UsoDatos Numero="65550423" CantMegas="44.58"/>
+    <UsoDatos Numero="85557202" CantMegas="46.07"/>
+    <UsoDatos Numero="85551365" CantMegas="6.02"/>
+    <UsoDatos Numero="75553193" CantMegas="19.81"/>
+    <UsoDatos Numero="65552519" CantMegas="43.52"/>
+    <PagoFactura Numero="65553930"/>
+    <PagoFactura Numero="90065551193"/>
+    <PagoFactura Numero="65554851"/>
+    <PagoFactura Numero="85557677"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-08">
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="85558939" Inicio="10:15" Fin="14:27"/>
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="85559427" Inicio="22:15" Fin="23:28"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65554851" Inicio="05:06" Fin="11:57"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="65551143" Inicio="03:45" Fin="09:57"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="65551455" Inicio="11:09" Fin="11:46"/>
+    <LlamadaTelefonica NumeroDe="65550423" NumeroA="75555561" Inicio="20:11" Fin="22:20"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65556756" Inicio="18:13" Fin="23:28"/>
+    <UsoDatos Numero="65552519" CantMegas="39.37"/>
+    <UsoDatos Numero="65559667" CantMegas="16.77"/>
+    <UsoDatos Numero="85557677" CantMegas="24.76"/>
+    <UsoDatos Numero="85558397" CantMegas="33.9"/>
+    <UsoDatos Numero="85550863" CantMegas="12.32"/>
+    <UsoDatos Numero="75550871" CantMegas="48.57"/>
+    <UsoDatos Numero="85551170" CantMegas="6.38"/>
+    <UsoDatos Numero="75553912" CantMegas="33.08"/>
+    <UsoDatos Numero="85557677" CantMegas="43.6"/>
+    <PagoFactura Numero="65556561"/>
+    <PagoFactura Numero="65558023"/>
+    <PagoFactura Numero="65551245"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-09">
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="85557202" Inicio="10:18" Fin="10:28"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="65550772" Inicio="04:27" Fin="10:41"/>
+    <LlamadaTelefonica NumeroDe="65550423" NumeroA="75551559" Inicio="20:44" Fin="23:50"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="65556336" Inicio="12:02" Fin="12:34"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="75559467" Inicio="01:22" Fin="03:24"/>
+    <LlamadaTelefonica NumeroDe="65550572" NumeroA="65550772" Inicio="20:36" Fin="23:47"/>
+    <UsoDatos Numero="65558927" CantMegas="3.87"/>
+    <UsoDatos Numero="85557077" CantMegas="13.53"/>
+    <UsoDatos Numero="75556355" CantMegas="50.03"/>
+    <UsoDatos Numero="85550549" CantMegas="15.57"/>
+    <UsoDatos Numero="85550863" CantMegas="4.82"/>
+    <UsoDatos Numero="75557633" CantMegas="21.61"/>
+    <UsoDatos Numero="85557677" CantMegas="49.49"/>
+    <PagoFactura Numero="85553051"/>
+    <PagoFactura Numero="85553586"/>
+    <PagoFactura Numero="65554410"/>
+    <PagoFactura Numero="80075554426"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-10">
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="75550396" Inicio="23:40" Fin="23:48"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65556714" Inicio="15:21" Fin="19:35"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85551365" Inicio="12:02" Fin="16:33"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="85556000" Inicio="06:11" Fin="12:55"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="75553912" Inicio="02:45" Fin="06:52"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="85554993" Inicio="09:40" Fin="13:55"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="85559427" Inicio="01:29" Fin="04:42"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="75553737" Inicio="00:49" Fin="06:50"/>
+    <UsoDatos Numero="75558748" CantMegas="37.0"/>
+    <UsoDatos Numero="75557867" CantMegas="12.35"/>
+    <UsoDatos Numero="65558397" CantMegas="7.18"/>
+    <UsoDatos Numero="65551143" CantMegas="10.12"/>
+    <UsoDatos Numero="65559714" CantMegas="31.76"/>
+    <PagoFactura Numero="80085559081"/>
+    <PagoFactura Numero="75553737"/>
+    <PagoFactura Numero="65550572"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-11">
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65550471" Inicio="10:00" Fin="13:00"/>
+    <LlamadaTelefonica NumeroDe="85551324" NumeroA="75552607" Inicio="09:36" Fin="13:39"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="85554422" Inicio="01:47" Fin="02:51"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="75550871" Inicio="01:32" Fin="01:42"/>
+    <UsoDatos Numero="85551365" CantMegas="29.65"/>
+    <UsoDatos Numero="65556768" CantMegas="48.43"/>
+    <UsoDatos Numero="85553586" CantMegas="40.55"/>
+    <UsoDatos Numero="65558023" CantMegas="33.22"/>
+    <UsoDatos Numero="85554422" CantMegas="28.05"/>
+    <UsoDatos Numero="75557414" CantMegas="36.54"/>
+    <PagoFactura Numero="75557867"/>
+    <PagoFactura Numero="90085556932"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-12">
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="75557827" Inicio="23:49" Fin="23:54"/>
+    <LlamadaTelefonica NumeroDe="85556960" NumeroA="85553051" Inicio="08:51" Fin="12:58"/>
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="75555459" Inicio="06:40" Fin="12:49"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="75551559" Inicio="02:17" Fin="06:45"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="75551311" Inicio="17:00" Fin="21:00"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65554410" Inicio="08:10" Fin="12:27"/>
+    <LlamadaTelefonica NumeroDe="65559657" NumeroA="75557017" Inicio="04:43" Fin="06:54"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="75558748" Inicio="21:57" Fin="21:58"/>
+    <LlamadaTelefonica NumeroDe="85553051" NumeroA="85558154" Inicio="06:30" Fin="10:33"/>
+    <UsoDatos Numero="85558939" CantMegas="47.71"/>
+    <UsoDatos Numero="75559467" CantMegas="1.9"/>
+    <UsoDatos Numero="75554036" CantMegas="34.14"/>
+    <UsoDatos Numero="65558743" CantMegas="47.99"/>
+    <UsoDatos Numero="65558397" CantMegas="48.93"/>
+    <UsoDatos Numero="85558521" CantMegas="37.88"/>
+    <UsoDatos Numero="75551579" CantMegas="40.16"/>
+    <UsoDatos Numero="65558023" CantMegas="22.06"/>
+    <PagoFactura Numero="75557827"/>
+    <PagoFactura Numero="65551574"/>
+    <PagoFactura Numero="90075558865"/>
+    <PagoFactura Numero="65559657"/>
+    <PagoFactura Numero="65556336"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-13">
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="75555459" Inicio="09:45" Fin="14:50"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="65553930" Inicio="17:25" Fin="23:35"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="65559739" Inicio="06:31" Fin="09:46"/>
+    <LlamadaTelefonica NumeroDe="65558628" NumeroA="85551170" Inicio="09:57" Fin="12:58"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="65551245" Inicio="18:45" Fin="23:49"/>
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="65554851" Inicio="01:34" Fin="07:49"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="75558859" Inicio="21:42" Fin="23:42"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="75557633" Inicio="13:32" Fin="15:42"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="75552607" Inicio="07:40" Fin="14:50"/>
+    <UsoDatos Numero="85558939" CantMegas="4.2"/>
+    <UsoDatos Numero="65559714" CantMegas="48.18"/>
+    <UsoDatos Numero="85557677" CantMegas="32.27"/>
+    <UsoDatos Numero="85557202" CantMegas="49.47"/>
+    <UsoDatos Numero="75552106" CantMegas="45.42"/>
+    <UsoDatos Numero="65554851" CantMegas="20.57"/>
+    <UsoDatos Numero="75558859" CantMegas="38.86"/>
+    <UsoDatos Numero="75556355" CantMegas="16.56"/>
+    <UsoDatos Numero="65550572" CantMegas="35.0"/>
+    <PagoFactura Numero="65558291"/>
+    <PagoFactura Numero="85556960"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-14">
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="75555814" Inicio="08:32" Fin="08:33"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="65558154" Inicio="21:12" Fin="21:32"/>
+    <LlamadaTelefonica NumeroDe="65557986" NumeroA="85553586" Inicio="19:08" Fin="19:50"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="75553912" Inicio="15:57" Fin="17:59"/>
+    <LlamadaTelefonica NumeroDe="65551143" NumeroA="75552106" Inicio="12:36" Fin="18:38"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="75551579" Inicio="11:23" Fin="14:49"/>
+    <UsoDatos Numero="75555459" CantMegas="32.81"/>
+    <UsoDatos Numero="85556960" CantMegas="33.7"/>
+    <UsoDatos Numero="75554036" CantMegas="6.39"/>
+    <UsoDatos Numero="65558291" CantMegas="20.84"/>
+    <UsoDatos Numero="75555814" CantMegas="27.12"/>
+    <UsoDatos Numero="65553930" CantMegas="29.83"/>
+    <UsoDatos Numero="65556336" CantMegas="24.49"/>
+    <UsoDatos Numero="65550471" CantMegas="27.68"/>
+    <UsoDatos Numero="65550423" CantMegas="4.53"/>
+    <PagoFactura Numero="85554993"/>
+    <PagoFactura Numero="75557017"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-15">
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="75550396" Inicio="16:15" Fin="19:28"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="75553193" Inicio="22:34" Fin="22:47"/>
+    <LlamadaTelefonica NumeroDe="85550863" NumeroA="75559467" Inicio="04:08" Fin="09:43"/>
+    <LlamadaTelefonica NumeroDe="85558939" NumeroA="85559427" Inicio="05:25" Fin="08:32"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="65554137" Inicio="11:01" Fin="18:13"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="75554036" Inicio="03:15" Fin="10:35"/>
+    <LlamadaTelefonica NumeroDe="85551170" NumeroA="75559467" Inicio="20:21" Fin="21:27"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="75555459" Inicio="15:13" Fin="17:28"/>
+    <UsoDatos Numero="65556756" CantMegas="18.94"/>
+    <UsoDatos Numero="75557827" CantMegas="1.85"/>
+    <UsoDatos Numero="65553930" CantMegas="23.04"/>
+    <UsoDatos Numero="85558939" CantMegas="8.74"/>
+    <UsoDatos Numero="65557986" CantMegas="33.61"/>
+    <UsoDatos Numero="85551365" CantMegas="43.21"/>
+    <UsoDatos Numero="75555814" CantMegas="20.57"/>
+    <UsoDatos Numero="75553737" CantMegas="24.59"/>
+    <UsoDatos Numero="75554666" CantMegas="26.01"/>
+    <PagoFactura Numero="75555814"/>
+    <PagoFactura Numero="75552106"/>
+    <PagoFactura Numero="75555459"/>
+    <PagoFactura Numero="85551365"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-16">
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="65551574" Inicio="21:13" Fin="23:20"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="75555459" Inicio="05:25" Fin="10:41"/>
+    <LlamadaTelefonica NumeroDe="65559714" NumeroA="65558291" Inicio="18:38" Fin="18:40"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="85551365" Inicio="01:51" Fin="02:56"/>
+    <LlamadaTelefonica NumeroDe="75557414" NumeroA="85550549" Inicio="08:34" Fin="10:45"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="85551170" Inicio="03:09" Fin="10:35"/>
+    <LlamadaTelefonica NumeroDe="75554036" NumeroA="65558743" Inicio="01:25" Fin="03:43"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="65558344" Inicio="04:40" Fin="08:49"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="65556336" Inicio="21:14" Fin="21:57"/>
+    <UsoDatos Numero="65557986" CantMegas="13.82"/>
+    <UsoDatos Numero="85556000" CantMegas="21.12"/>
+    <UsoDatos Numero="75556355" CantMegas="29.5"/>
+    <UsoDatos Numero="75553979" CantMegas="22.79"/>
+    <UsoDatos Numero="65551143" CantMegas="40.46"/>
+    <UsoDatos Numero="65556756" CantMegas="43.88"/>
+    <UsoDatos Numero="65558927" CantMegas="29.28"/>
+    <PagoFactura Numero="75553193"/>
+    <PagoFactura Numero="75553979"/>
+    <PagoFactura Numero="85557077"/>
+    <PagoFactura Numero="65558344"/>
+    <PagoFactura Numero="65552519"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-17">
+    <LlamadaTelefonica NumeroDe="75555814" NumeroA="75557414" Inicio="22:14" Fin="22:48"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="75557414" Inicio="00:24" Fin="01:37"/>
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="75554666" Inicio="20:52" Fin="22:54"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="75557867" Inicio="18:40" Fin="22:47"/>
+    <LlamadaTelefonica NumeroDe="85558397" NumeroA="85554422" Inicio="07:21" Fin="13:29"/>
+    <LlamadaTelefonica NumeroDe="65550772" NumeroA="65558344" Inicio="10:12" Fin="12:25"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="75557827" Inicio="20:13" Fin="23:24"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="65550471" Inicio="14:52" Fin="21:57"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65550423" Inicio="02:30" Fin="05:57"/>
+    <UsoDatos Numero="85554993" CantMegas="13.58"/>
+    <UsoDatos Numero="85551365" CantMegas="22.42"/>
+    <UsoDatos Numero="85554398" CantMegas="6.94"/>
+    <UsoDatos Numero="65550572" CantMegas="5.33"/>
+    <UsoDatos Numero="75557867" CantMegas="37.4"/>
+    <UsoDatos Numero="85559427" CantMegas="36.64"/>
+    <UsoDatos Numero="75553979" CantMegas="49.18"/>
+    <UsoDatos Numero="85554398" CantMegas="23.65"/>
+    <PagoFactura Numero="75558748"/>
+    <PagoFactura Numero="85554422"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-18">
+    <LlamadaTelefonica NumeroDe="65554137" NumeroA="75553737" Inicio="14:12" Fin="20:19"/>
+    <LlamadaTelefonica NumeroDe="65554410" NumeroA="85554993" Inicio="22:01" Fin="23:21"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="65554410" Inicio="07:56" Fin="11:57"/>
+    <LlamadaTelefonica NumeroDe="75555814" NumeroA="75557633" Inicio="16:05" Fin="22:56"/>
+    <LlamadaTelefonica NumeroDe="75556355" NumeroA="85556960" Inicio="14:56" Fin="18:58"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="75557633" Inicio="04:49" Fin="06:50"/>
+    <LlamadaTelefonica NumeroDe="85554422" NumeroA="65554137" Inicio="20:45" Fin="22:55"/>
+    <UsoDatos Numero="85553051" CantMegas="48.66"/>
+    <UsoDatos Numero="75551579" CantMegas="12.62"/>
+    <UsoDatos Numero="75556355" CantMegas="49.78"/>
+    <UsoDatos Numero="75550396" CantMegas="7.27"/>
+    <UsoDatos Numero="65558927" CantMegas="29.78"/>
+    <UsoDatos Numero="75554781" CantMegas="36.53"/>
+    <UsoDatos Numero="65558023" CantMegas="26.28"/>
+    <UsoDatos Numero="75557633" CantMegas="33.92"/>
+    <PagoFactura Numero="90075551089"/>
+    <PagoFactura Numero="75554666"/>
+    <PagoFactura Numero="85557202"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-19">
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="75557414" Inicio="00:53" Fin="00:56"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="65558291" Inicio="00:41" Fin="03:43"/>
+    <LlamadaTelefonica NumeroDe="75553193" NumeroA="75553737" Inicio="03:29" Fin="10:42"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65559739" Inicio="13:40" Fin="16:58"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="65554410" Inicio="18:19" Fin="23:45"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="85554993" Inicio="04:00" Fin="04:12"/>
+    <LlamadaTelefonica NumeroDe="85554398" NumeroA="85551365" Inicio="09:14" Fin="10:29"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="65557986" Inicio="09:52" Fin="15:59"/>
+    <LlamadaTelefonica NumeroDe="85558521" NumeroA="65554410" Inicio="13:14" Fin="14:26"/>
+    <UsoDatos Numero="65556336" CantMegas="4.57"/>
+    <UsoDatos Numero="65551245" CantMegas="49.4"/>
+    <UsoDatos Numero="65556714" CantMegas="9.38"/>
+    <UsoDatos Numero="65559657" CantMegas="17.48"/>
+    <UsoDatos Numero="85553586" CantMegas="36.66"/>
+    <UsoDatos Numero="85556000" CantMegas="38.56"/>
+    <UsoDatos Numero="85554398" CantMegas="7.18"/>
+    <UsoDatos Numero="85556960" CantMegas="36.64"/>
+    <UsoDatos Numero="65554137" CantMegas="10.57"/>
+    <PagoFactura Numero="65558628"/>
+    <PagoFactura Numero="75551579"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-20">
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="75556355" Inicio="08:42" Fin="12:46"/>
+    <LlamadaTelefonica NumeroDe="75552106" NumeroA="75557701" Inicio="01:03" Fin="03:59"/>
+    <LlamadaTelefonica NumeroDe="65553930" NumeroA="65551143" Inicio="07:29" Fin="10:57"/>
+    <LlamadaTelefonica NumeroDe="75557827" NumeroA="85553586" Inicio="18:20" Fin="20:40"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="75551579" Inicio="09:05" Fin="10:12"/>
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="85553586" Inicio="23:52" Fin="23:55"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="75552607" Inicio="22:50" Fin="23:53"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="65556714" Inicio="07:40" Fin="07:45"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="85556000" Inicio="23:39" Fin="23:59"/>
+    <UsoDatos Numero="75550026" CantMegas="42.86"/>
+    <UsoDatos Numero="85550863" CantMegas="16.05"/>
+    <UsoDatos Numero="85551170" CantMegas="37.31"/>
+    <UsoDatos Numero="85554993" CantMegas="23.67"/>
+    <UsoDatos Numero="65558154" CantMegas="44.35"/>
+    <UsoDatos Numero="75551311" CantMegas="29.67"/>
+    <UsoDatos Numero="85553051" CantMegas="48.49"/>
+    <PagoFactura Numero="65554449"/>
+    <PagoFactura Numero="65558154"/>
+    <PagoFactura Numero="65550772"/>
+    <PagoFactura Numero="75557633"/>
+    <PagoFactura Numero="85558154"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-21">
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="85551170" Inicio="01:45" Fin="05:51"/>
+    <LlamadaTelefonica NumeroDe="65558628" NumeroA="75554781" Inicio="03:35" Fin="08:42"/>
+    <LlamadaTelefonica NumeroDe="65551455" NumeroA="85553586" Inicio="03:50" Fin="08:50"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="65551245" Inicio="19:24" Fin="21:41"/>
+    <LlamadaTelefonica NumeroDe="85557202" NumeroA="65558023" Inicio="19:25" Fin="19:26"/>
+    <LlamadaTelefonica NumeroDe="75557701" NumeroA="65554410" Inicio="05:38" Fin="05:48"/>
+    <UsoDatos Numero="85558397" CantMegas="43.7"/>
+    <UsoDatos Numero="65551923" CantMegas="47.37"/>
+    <UsoDatos Numero="65551245" CantMegas="18.65"/>
+    <UsoDatos Numero="65556768" CantMegas="6.31"/>
+    <UsoDatos Numero="65558154" CantMegas="26.83"/>
+    <UsoDatos Numero="85557677" CantMegas="6.6"/>
+    <UsoDatos Numero="65556714" CantMegas="45.72"/>
+    <UsoDatos Numero="75557701" CantMegas="13.6"/>
+    <PagoFactura Numero="65557986"/>
+    <PagoFactura Numero="65558927"/>
+    <PagoFactura Numero="75556355"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-22">
+    <LlamadaTelefonica NumeroDe="85559427" NumeroA="85550863" Inicio="18:20" Fin="21:37"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="65558154" Inicio="00:54" Fin="00:58"/>
+    <LlamadaTelefonica NumeroDe="65551574" NumeroA="85554398" Inicio="18:35" Fin="23:55"/>
+    <LlamadaTelefonica NumeroDe="85554993" NumeroA="65558291" Inicio="00:47" Fin="01:54"/>
+    <LlamadaTelefonica NumeroDe="75552607" NumeroA="75557414" Inicio="19:19" Fin="20:51"/>
+    <UsoDatos Numero="85557077" CantMegas="25.85"/>
+    <UsoDatos Numero="65556561" CantMegas="41.75"/>
+    <UsoDatos Numero="85557077" CantMegas="8.68"/>
+    <UsoDatos Numero="75552106" CantMegas="35.81"/>
+    <UsoDatos Numero="85553051" CantMegas="44.36"/>
+    <UsoDatos Numero="65559667" CantMegas="17.67"/>
+    <UsoDatos Numero="65558154" CantMegas="20.95"/>
+    <UsoDatos Numero="65556336" CantMegas="5.28"/>
+    <PagoFactura Numero="85556000"/>
+    <PagoFactura Numero="75553912"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-23">
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="85559427" Inicio="21:50" Fin="21:55"/>
+    <LlamadaTelefonica NumeroDe="75558707" NumeroA="85554422" Inicio="06:37" Fin="06:57"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="65559657" Inicio="16:06" Fin="18:46"/>
+    <LlamadaTelefonica NumeroDe="65556768" NumeroA="75552607" Inicio="11:41" Fin="16:58"/>
+    <LlamadaTelefonica NumeroDe="75557017" NumeroA="85554422" Inicio="00:47" Fin="07:54"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="65551143" Inicio="14:28" Fin="16:33"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="65556714" Inicio="13:15" Fin="19:27"/>
+    <UsoDatos Numero="75555561" CantMegas="16.06"/>
+    <UsoDatos Numero="75551579" CantMegas="28.69"/>
+    <UsoDatos Numero="65551455" CantMegas="24.87"/>
+    <UsoDatos Numero="65550772" CantMegas="10.47"/>
+    <UsoDatos Numero="65559714" CantMegas="4.9"/>
+    <UsoDatos Numero="75557827" CantMegas="38.2"/>
+    <PagoFactura Numero="85550863"/>
+    <PagoFactura Numero="65551455"/>
+    <PagoFactura Numero="75555561"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-24">
+    <LlamadaTelefonica NumeroDe="65554449" NumeroA="75553912" Inicio="18:47" Fin="18:58"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="65558291" Inicio="01:23" Fin="08:28"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="65558023" Inicio="05:00" Fin="06:09"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="75555814" Inicio="08:45" Fin="09:46"/>
+    <UsoDatos Numero="85551324" CantMegas="20.11"/>
+    <UsoDatos Numero="85551324" CantMegas="12.09"/>
+    <UsoDatos Numero="65556756" CantMegas="39.58"/>
+    <UsoDatos Numero="65550772" CantMegas="27.64"/>
+    <UsoDatos Numero="75557633" CantMegas="2.32"/>
+    <PagoFactura Numero="75551311"/>
+    <PagoFactura Numero="80065552676"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-25">
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="65558743" Inicio="20:52" Fin="23:57"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="75555459" Inicio="15:20" Fin="16:30"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="65558154" Inicio="09:34" Fin="09:58"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="65551455" Inicio="15:49" Fin="18:50"/>
+    <LlamadaTelefonica NumeroDe="65556756" NumeroA="75555459" Inicio="05:41" Fin="06:53"/>
+    <LlamadaTelefonica NumeroDe="65554851" NumeroA="75554666" Inicio="01:45" Fin="05:58"/>
+    <LlamadaTelefonica NumeroDe="85556000" NumeroA="65551574" Inicio="12:36" Fin="17:45"/>
+    <LlamadaTelefonica NumeroDe="65558743" NumeroA="65553930" Inicio="11:44" Fin="16:52"/>
+    <LlamadaTelefonica NumeroDe="85553586" NumeroA="85558939" Inicio="10:11" Fin="16:25"/>
+    <UsoDatos Numero="65556714" CantMegas="15.27"/>
+    <UsoDatos Numero="65558023" CantMegas="28.17"/>
+    <UsoDatos Numero="85553051" CantMegas="12.5"/>
+    <UsoDatos Numero="75558859" CantMegas="35.75"/>
+    <UsoDatos Numero="75552607" CantMegas="39.21"/>
+    <UsoDatos Numero="85554398" CantMegas="34.61"/>
+    <UsoDatos Numero="75552607" CantMegas="37.05"/>
+    <UsoDatos Numero="65554851" CantMegas="46.46"/>
+    <PagoFactura Numero="75558138"/>
+    <PagoFactura Numero="85551170"/>
+    <PagoFactura Numero="90065551658"/>
+    <PagoFactura Numero="65556714"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-26">
+    <LlamadaTelefonica NumeroDe="75554781" NumeroA="85558521" Inicio="04:28" Fin="04:58"/>
+    <LlamadaTelefonica NumeroDe="65556561" NumeroA="85554993" Inicio="04:25" Fin="05:34"/>
+    <LlamadaTelefonica NumeroDe="75550871" NumeroA="85557202" Inicio="13:48" Fin="16:59"/>
+    <LlamadaTelefonica NumeroDe="65554175" NumeroA="65558397" Inicio="11:18" Fin="17:44"/>
+    <LlamadaTelefonica NumeroDe="65551245" NumeroA="85556960" Inicio="13:56" Fin="14:57"/>
+    <LlamadaTelefonica NumeroDe="75555459" NumeroA="75558138" Inicio="00:06" Fin="00:36"/>
+    <UsoDatos Numero="65558628" CantMegas="2.87"/>
+    <UsoDatos Numero="85558154" CantMegas="24.88"/>
+    <UsoDatos Numero="85554422" CantMegas="5.79"/>
+    <UsoDatos Numero="65554851" CantMegas="47.71"/>
+    <UsoDatos Numero="85554993" CantMegas="29.99"/>
+    <UsoDatos Numero="75552106" CantMegas="25.17"/>
+    <PagoFactura Numero="75559467"/>
+    <PagoFactura Numero="75551559"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-27">
+    <LlamadaTelefonica NumeroDe="65558397" NumeroA="65559739" Inicio="20:04" Fin="23:45"/>
+    <LlamadaTelefonica NumeroDe="65550423" NumeroA="75551311" Inicio="02:07" Fin="07:14"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="65559657" Inicio="19:06" Fin="23:56"/>
+    <LlamadaTelefonica NumeroDe="65556714" NumeroA="65551574" Inicio="00:07" Fin="04:45"/>
+    <LlamadaTelefonica NumeroDe="75550396" NumeroA="85557677" Inicio="00:07" Fin="03:20"/>
+    <LlamadaTelefonica NumeroDe="65550471" NumeroA="75558748" Inicio="09:45" Fin="15:49"/>
+    <LlamadaTelefonica NumeroDe="75558748" NumeroA="65554137" Inicio="00:37" Fin="00:38"/>
+    <UsoDatos Numero="75553737" CantMegas="3.07"/>
+    <UsoDatos Numero="65550772" CantMegas="6.72"/>
+    <UsoDatos Numero="65559657" CantMegas="5.08"/>
+    <UsoDatos Numero="75557017" CantMegas="26.98"/>
+    <UsoDatos Numero="85550863" CantMegas="41.99"/>
+    <UsoDatos Numero="65551143" CantMegas="13.76"/>
+    <UsoDatos Numero="85558939" CantMegas="4.86"/>
+    <PagoFactura Numero="90085551959"/>
+    <PagoFactura Numero="80075551361"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-28">
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="65556768" Inicio="03:46" Fin="05:59"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="75558707" Inicio="04:16" Fin="10:40"/>
+    <LlamadaTelefonica NumeroDe="65559739" NumeroA="65557986" Inicio="03:32" Fin="06:47"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="85554993" Inicio="12:41" Fin="15:47"/>
+    <LlamadaTelefonica NumeroDe="75551311" NumeroA="65557986" Inicio="14:44" Fin="21:51"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="85551170" Inicio="10:31" Fin="16:51"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="85554422" Inicio="06:21" Fin="08:23"/>
+    <LlamadaTelefonica NumeroDe="75558859" NumeroA="65551245" Inicio="20:17" Fin="23:29"/>
+    <LlamadaTelefonica NumeroDe="65556336" NumeroA="75554666" Inicio="00:09" Fin="01:29"/>
+    <UsoDatos Numero="85550863" CantMegas="47.17"/>
+    <UsoDatos Numero="75550396" CantMegas="5.05"/>
+    <UsoDatos Numero="65554137" CantMegas="12.97"/>
+    <UsoDatos Numero="85551170" CantMegas="19.36"/>
+    <UsoDatos Numero="85558397" CantMegas="39.79"/>
+    <UsoDatos Numero="65558397" CantMegas="40.05"/>
+    <UsoDatos Numero="75553193" CantMegas="32.59"/>
+    <UsoDatos Numero="65558291" CantMegas="26.4"/>
+    <UsoDatos Numero="85556960" CantMegas="43.52"/>
+    <PagoFactura Numero="80075551256"/>
+    <PagoFactura Numero="75550026"/>
+    <PagoFactura Numero="65559739"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-29">
+    <LlamadaTelefonica NumeroDe="75557633" NumeroA="65551143" Inicio="16:18" Fin="23:25"/>
+    <LlamadaTelefonica NumeroDe="85557202" NumeroA="75554036" Inicio="16:50" Fin="18:58"/>
+    <LlamadaTelefonica NumeroDe="75554666" NumeroA="75554036" Inicio="20:35" Fin="20:53"/>
+    <LlamadaTelefonica NumeroDe="85557077" NumeroA="65559739" Inicio="18:57" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="75553912" NumeroA="75555561" Inicio="10:40" Fin="17:46"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="65556768" Inicio="16:33" Fin="20:45"/>
+    <LlamadaTelefonica NumeroDe="85550549" NumeroA="75558748" Inicio="07:49" Fin="08:49"/>
+    <LlamadaTelefonica NumeroDe="75553737" NumeroA="65558397" Inicio="22:30" Fin="23:31"/>
+    <LlamadaTelefonica NumeroDe="85551365" NumeroA="65556561" Inicio="22:23" Fin="23:27"/>
+    <UsoDatos Numero="75555561" CantMegas="15.85"/>
+    <UsoDatos Numero="65558397" CantMegas="12.12"/>
+    <UsoDatos Numero="65556561" CantMegas="3.65"/>
+    <UsoDatos Numero="65557986" CantMegas="38.76"/>
+    <UsoDatos Numero="75550871" CantMegas="21.0"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-30">
+    <LlamadaTelefonica NumeroDe="85553051" NumeroA="65550423" Inicio="22:53" Fin="23:55"/>
+    <LlamadaTelefonica NumeroDe="75558138" NumeroA="75551579" Inicio="15:57" Fin="20:59"/>
+    <LlamadaTelefonica NumeroDe="85558154" NumeroA="65551143" Inicio="13:37" Fin="16:43"/>
+    <LlamadaTelefonica NumeroDe="65559714" NumeroA="75554781" Inicio="15:28" Fin="15:31"/>
+    <LlamadaTelefonica NumeroDe="75551579" NumeroA="65551143" Inicio="10:45" Fin="16:52"/>
+    <LlamadaTelefonica NumeroDe="65550423" NumeroA="65550772" Inicio="13:12" Fin="13:35"/>
+    <UsoDatos Numero="85558521" CantMegas="24.81"/>
+    <UsoDatos Numero="75553193" CantMegas="11.18"/>
+    <UsoDatos Numero="85554398" CantMegas="22.57"/>
+    <UsoDatos Numero="85554993" CantMegas="3.78"/>
+    <UsoDatos Numero="65558344" CantMegas="17.82"/>
+    <UsoDatos Numero="75555814" CantMegas="49.09"/>
+    <UsoDatos Numero="65554449" CantMegas="14.54"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+  <OperacionDia fecha="2020-05-31">
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="110" Inicio="00:12" Fin="00:17"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="911" Inicio="11:21" Fin="11:36"/>
+    <LlamadaTelefonica NumeroDe="65558344" NumeroA="75554036" Inicio="21:51" Fin="23:59"/>
+    <LlamadaTelefonica NumeroDe="65558291" NumeroA="65550423" Inicio="11:21" Fin="11:36"/>
+    <LlamadaTelefonica NumeroDe="65551923" NumeroA="75553979" Inicio="02:02" Fin="08:41"/>
+    <LlamadaTelefonica NumeroDe="75559467" NumeroA="75555561" Inicio="23:19" Fin="23:55"/>
+    <LlamadaTelefonica NumeroDe="75551559" NumeroA="65557986" Inicio="12:03" Fin="13:43"/>
+    <LlamadaTelefonica NumeroDe="65558023" NumeroA="65551455" Inicio="00:12" Fin="00:17"/>
+    <UsoDatos Numero="85553586" CantMegas="49.47"/>
+    <UsoDatos Numero="75555814" CantMegas="2.57"/>
+    <UsoDatos Numero="75559467" CantMegas="4.92"/>
+    <UsoDatos Numero="65551574" CantMegas="33.87"/>
+    <UsoDatos Numero="65559739" CantMegas="37.52"/>
+    <UsoDatos Numero="75557414" CantMegas="5.51"/>
+    <PagoFactura Numero="85559427"/>
+    <PagoFactura Numero="75557701"/>
+    <PagoFactura Numero="65554175"/>
+    <PagoFactura Numero="75554036"/>
+    <PagoFactura Numero="80065558631"/>
+  </OperacionDia>
+</Operaciones_por_Dia>
+
+

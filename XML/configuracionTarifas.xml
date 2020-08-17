@@ -1,0 +1,139 @@
+<configTarifas>
+
+<TipoRelacionFamiliar ID="1" Nombre="Paternidad o Maternidad"/>
+<TipoRelacionFamiliar ID="2" Nombre="Hermandad"/>
+
+<!-- Tarifas -->
+<TipoTarifa ID="1" Nombre="Economico Regular"/>
+<TipoTarifa ID="2" Nombre="Economico Familiar"/>
+
+<TipoTarifa ID="3" Nombre="MedioCaro Regular"/>
+<TipoTarifa ID="4" Nombre="MedioCaro Familiar"/>
+
+<TipoTarifa ID="5" Nombre="Premium Regular"/>
+<TipoTarifa ID="6" Nombre="Premium Familiar"/>
+
+<TipoTarifa ID="7" Nombre="Tarifa 800 Empresa X"/>
+<TipoTarifa ID="8" Nombre="Tarifa 800 Empresa Y"/>
+<TipoTarifa ID="9" Nombre="Tarifa 800 Empresa Z"/>
+
+<TipoTarifa ID="10" Nombre="Tarifa 900 Empresa X"/>
+<TipoTarifa ID="11" Nombre="Tarifa 900 Empresa Y"/>
+<TipoTarifa ID="12" Nombre="Tarifa 900 Empresa Z"/>
+
+<!-- Elementos de las tarifas (Megas y Mins) -->
+<TipoElemento ID="1" Nombre="Tarifa Base" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="2" Nombre="Cantidad Minutos Tarifa Base" TipoValor="Integer"/>
+<TipoElemento ID="3" Nombre="Cantidad Megas Tarifa Base" TipoValor="Integer"/>
+<TipoElemento ID="4" Nombre="Costo Minuto Adicional A La Tarifa Base Horario Regular" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="5" Nombre="Costo Minuto Adicional A La Tarifa Base Horario Nocturno" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="6" Nombre="Costo Mega Adicional A La Tarifa Base" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="7" Nombre="Costo Recargo Por No Pagar" TipoValor="Integer"/>
+<TipoElemento ID="8" Nombre="Costo Minuto Normal" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="9" Nombre="Recargo Adicional Uso Familiar de Llamadas Telefónicas" TipoValor="Valor Monetario Fijo"/>
+
+<!--Se aplica para todas las tarifas personales-->
+<TipoElemento ID="10" Nombre="IVA" TipoValor="Valor Monetario Porcentual"/>
+<TipoElemento ID="11" Nombre="911" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="12" Nombre="110" TipoValor="Valor Monetario Fijo"/>
+
+<!-- Acá inicia el cruce entre los tipos de elementos y los tipos de tarifa. -->  
+<!--Económico regular -->
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="1" Valor= "10000.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="2" Valor= "60"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="3" Valor= "300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="4" Valor= "30.23"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="5" Valor= "25.99"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="6" Valor= "12.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="7" Valor= "1200"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="8" Valor= "50.78"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="9" Valor= "12.46"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="10" Valor= "13.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="11" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="1" IDTipoElemento="12" Valor= "20.00"/>
+
+
+
+<!--Económico familiar -->
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="1" Valor= "15000.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="2" Valor= "90"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="3" Valor= "500"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="4" Valor= "34.12"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="5" Valor= "27.93"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="6" Valor= "30.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="7" Valor= "3300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="8" Valor= "64.24"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="9" Valor= "31.12"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="10" Valor= "13.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="11" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="2" IDTipoElemento="12" Valor= "20.00"/>
+
+
+
+<!--MedioCaro regular -->
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="1" Valor= "20000.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="2" Valor= "140"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="3" Valor= "800"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="4" Valor= "39.28"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="5" Valor= "30.12"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="6" Valor= "60.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="7" Valor= "4500"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="8" Valor= "73.40"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="9" Valor= "38.01"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="10" Valor= "13.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="11" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="3" IDTipoElemento="12" Valor= "20.00"/>
+
+<!--MedioCaro familiar -->
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="1" Valor= "24000.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="2" Valor= "190"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="3" Valor= "1000"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="4" Valor= "43.63"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="5" Valor= "32.08"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="6" Valor= "75.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="7" Valor= "5400"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="8" Valor= "74.0"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="9" Valor= "34.04"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="10" Valor= "13.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="11" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="4" IDTipoElemento="12" Valor= "20.00"/>
+
+  
+<!--Premium regular -->
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="1" Valor= "32000.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="2" Valor= "250"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="3" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="4" Valor= "45.34"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="5" Valor= "38.33"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="6" Valor= "82.34"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="7" Valor= "6200"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="8" Valor= "83.40"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="9" Valor= "39.34"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="10" Valor= "13.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="11" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="5" IDTipoElemento="12" Valor= "20.00"/>
+
+
+<!--Premium Familiar -->
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="1" Valor= "38000.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="2" Valor= "300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="3" Valor= "1800"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="4" Valor= "50.34"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="5" Valor= "42.24"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="6" Valor= "90.24"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="7" Valor= "7300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="8" Valor= "89.35"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="9" Valor= "43.23"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="10" Valor= "13.00"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="11" Valor= "1300"/>
+<ElementoDeTipoTarifa IDTipoTarifa="6" IDTipoElemento="12" Valor= "20.00"/>
+
+  <!--800 Y 900 local y externas -->
+<ElementoDeTipoTarifa IDTipoTarifa="7" IDTipoElemento="8" Valor= "24.45"/>
+<ElementoDeTipoTarifa IDTipoTarifa="8" IDTipoElemento="8" Valor= "30.12"/>
+<ElementoDeTipoTarifa IDTipoTarifa="9" IDTipoElemento="8" Valor= "27.49"/>
+<ElementoDeTipoTarifa IDTipoTarifa="10" IDTipoElemento="8" Valor= "25.01"/>
+<ElementoDeTipoTarifa IDTipoTarifa="11" IDTipoElemento="8" Valor= "31.42"/>
+<ElementoDeTipoTarifa IDTipoTarifa="12" IDTipoElemento="8" Valor= "23.95"/>
+
+</configTarifas>
