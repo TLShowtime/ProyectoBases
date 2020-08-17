@@ -67,7 +67,8 @@ CREATE TABLE EsFamiliaDe(
 CREATE TABLE TipoContrato (
 	Id int not null Primary Key,
 	Nombre varchar(50) not null,
-	TipoTelefono int not null
+	TipoTelefono int not null,
+	Activo int not null
 );
 
 -- Tipo Elemento en XML
