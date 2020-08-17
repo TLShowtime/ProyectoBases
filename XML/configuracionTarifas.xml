@@ -27,7 +27,7 @@
 <TipoElemento ID="3" Nombre="Cantidad Megas Tarifa Base" TipoValor="Integer"/>
 <TipoElemento ID="4" Nombre="Costo Minuto Adicional A La Tarifa Base Horario Regular" TipoValor="Valor Monetario Fijo"/>
 <TipoElemento ID="5" Nombre="Costo Minuto Adicional A La Tarifa Base Horario Nocturno" TipoValor="Valor Monetario Fijo"/>
-<TipoElemento ID="6" Nombre="Costo Mega Adicional A La Tarifa Base" TipoValor="Valor Monetario Fijo"/>
+<TipoElemento ID="6" Nombre="Costo Mega Adicional A La Tarifa Base" TipoValor="Valor Mega Fijo"/>
 <TipoElemento ID="7" Nombre="Costo Recargo Por No Pagar" TipoValor="Integer"/>
 <TipoElemento ID="8" Nombre="Costo Minuto Normal" TipoValor="Valor Monetario Fijo"/>
 <TipoElemento ID="9" Nombre="Recargo Adicional Uso Familiar de Llamadas Telefónicas" TipoValor="Valor Monetario Fijo"/>
