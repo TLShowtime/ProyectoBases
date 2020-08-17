@@ -73,7 +73,7 @@ CREATE TABLE TipoContrato (
 
 -- Tipo Elemento en XML
 CREATE TABLE ConceptoTarifa(
-	Id int identity(1,1) Primary Key not null,
+	Id int Primary Key not null,
 	Nombre varchar(100) not null,
 	Unidad varchar(30) not null,
 	Activo int not null
