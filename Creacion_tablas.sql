@@ -207,6 +207,7 @@ CREATE TABLE MovMinutos800(
 	NumTelefono varchar(20)not null,
 	HoraInicio time not null,
 	HoraFinal time not null,
+	CantidadMinutos int not null,
 	Activo int not null
 );
 
@@ -218,6 +219,7 @@ CREATE TABLE MovMinutos900(
 	NumTelefono varchar(20)not null,
 	HoraInicio time not null,
 	HoraFinal time not null,
+	CantidadMinutos int not null,
 	Activo int not null
 );
 ---------------------------------------------------------------------------------

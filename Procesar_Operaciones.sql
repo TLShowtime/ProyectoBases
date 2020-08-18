@@ -1,5 +1,13 @@
 USE [Empresa]
 
+DELETE dbo.MovUsoMinutosNocturno
+DELETE dbo.MovUsoMinutos
+DELETE dbo.MovUsoMega
+DELETE dbo.MovMinutos900
+DELETE dbo.MovMinutos800
+DELETE dbo.MovMinutos110
+
+DELETE dbo.Facturas
 DELETE dbo.EsFamiliaDe
 DELETE dbo.Contrato
 DELETE dbo.Cliente
@@ -16,11 +24,13 @@ DECLARE @XMLData XML
 		,@fechaini date
 		,@fechafin date
 
-
 DECLARE @Clientes ClienteNuevo
 		,@Contratos NuevoContrato
-		,@RelacionesNuevas RelacionFamiliar;
-
+		,@RelacionesNuevas RelacionFamiliar
+		,@LlamadasHechas LlamadaTelefonica
+		,@DatosUsados UsoDatos
+		,@FacturasAPagar PagoFactura;
+------------------------------------------------------
 
 
 SET NOCOUNT ON
@@ -98,11 +108,69 @@ BEGIN
 	EXEC SP_Procesa_Relacion_entre_Clientes @RelacionesNuevas
 	----------------------------------------------------------
 
+	-- <LlamadaTelefonica NumeroDe="65554137" NumeroA="75553737" Inicio="14:12" Fin="20:19"/>
+	INSERT INTO @LlamadasHechas(NumeroDe,NumeroA,Inicio,Fin)
+	SELECT NUmeroEmisor,NumeroReceptor,HoraInicio,HoraFin
+	FROM OPENXML (@hdoc, '/Operaciones_por_Dia/OperacionDia/LlamadaTelefonica',1)
+	WITH (
+		NumeroEmisor varchar(20) '@NumeroDe',
+		NumeroReceptor varchar(20) '@NumeroA',
+		HoraInicio time '@Inicio',
+		HoraFin time '@Fin',
+		Fecha date '../@fecha'
+	) 
+	WHERE @fechaIni = Fecha;
+
+	-----------------
+	EXEC SP_Procesa_Llamadas @LlamadasHechas,@fechaIni
+	--------------------
 
 
-	DELETE @Clientes
-	DELETE @Contratos
-	DELETE @RelacionesNuevas
+	--<UsoDatos Numero="65558743" CantMegas="39.03"/>
+	--Numero varchar(20) not null, CantidadMegas real not null);
+	INSERT INTO @DatosUsados(Numero,CantidadMegas)
+	SELECT NUmero,CantMegas
+	FROM OPENXML (@hdoc, '/Operaciones_por_Dia/OperacionDia/UsoDatos',1)
+	WITH (
+		Numero varchar(20) '@Numero',
+		CantMegas real '@CantMegas',
+		Fecha date '../@fecha'
+	) 
+	WHERE @fechaIni = Fecha;
+
+	------------------------- Procesa los megas del XML -----------
+	EXEC SP_Procesa_Megas_Usados @DatosUsados,@fechaIni
+	---------------------------------------------------------------------
+
+	
+	----------------------------
+	-- Generacion de facturas
+
+	-- EXEC SP_Generar_Facturas @fechaIni
+	---------------------------
+
+	/**
+	-------------- ---------------------------------
+	INSERT INTO @FacturasAPagar(Numero)
+	SELECT NUmero
+	FROM OPENXML (@hdoc, '/Operaciones_por_Dia/OperacionDia/PagoFactura',1)
+	WITH (
+		Numero varchar(20) '@Numero',
+		Fecha date '../@fecha'
+	) 
+	WHERE @fechaIni = Fecha;
+
+	-------------------------
+	-- EXEC SP_Procesa_Pago_Facturas @FacturasAPagar
+	-------------------------
+	*/
+
+	DELETE @Clientes;
+	DELETE @Contratos;
+	DELETE @RelacionesNuevas;
+	DELETE @LlamadasHechas;
+	DELETE @DatosUsados;
+	DELETE @FacturasAPagar;
 
 	-- Pasa al siguiente dia
 	SET @fechaini = dateadd(day,1,@fechaini)
@@ -111,9 +179,18 @@ END;
 -- Cierra el Archivo XML
 EXEC sp_xml_removedocument @hdoc;
 
-
 /**
 SELECT E1.Id,C1.Identificacion,C2.Identificacion,E1.IdTipoRelacion from dbo.EsFamiliaDe E1 inner join dbo.Cliente C1 on E1.IdClienteAgregacion = C1.Id,
 			  dbo.EsFamiliaDe E2 inner join dbo.Cliente C2 on E2.IdClienteAsociacion = C2.Id
 		where E1.Id = E2.Id
 */
+
+/* Procesar para la generacion de factura
+	SELECT TXC.IdTipoContrato,TXC.Valor,T.Nombre,C.*
+FROM dbo.TipoContratoXConceptoTarifa TXC inner join dbo.TipoContrato T on TXC.IdTipoContrato = T.Id
+										 inner join dbo.ConceptoTarifa C on TXC.IdConceptoTarifa = C.Id
+
+*/
+
+--SELECT C.NumeroTelefono,F.* from dbo.Facturas F inner join dbo.Contrato C on F.IdContrato  =C.Id
+
