@@ -50,7 +50,7 @@ BEGIN
 		WHERE C.IdTipoContrato = T.Id AND CT.Unidad != 'Integer'-- and C.NumeroTelefono = '90065559901'
 
 		INSERT INTO @Totales (IdContrato,IdTipoContrato,IdConceptoTarifa,MontoTotal)
-		SELECT D.IdContrato,D.IdTipoContrato,D.IdConceptoTarifa,CASE WHEN D.IdConceptoTarifa = 1 then D.Valor
+		SELECT DISTINCT D.IdContrato,D.IdTipoContrato,D.IdConceptoTarifa,CASE WHEN D.IdConceptoTarifa = 1 then D.Valor
 																	-- Tarifa base						 
 																	
 																	 WHEN D.IdConceptoTarifa = 4 AND DMM.IdConceptoTarifa=2 AND F.SaldoMinutos > DMM.Valor then D.Valor * (F.SaldoMinutos - DMM.Valor)
@@ -77,7 +77,8 @@ BEGIN
 																	WHEN D.IdConceptoTarifa = 12 THEN D.Valor * F.SaldoMinutos110
 																	-- Recargo por llamadas a 110
 																	
-																	ELSE D.Valor
+																	ELSE 
+																		0
 																	 end
 		FROM @DatosMontos D inner join @FacturasACerrar FC on D.IdContrato = FC.IdContrato
 							inner join dbo.Facturas F on D.IdContrato = F.IdContrato and F.EstaCerrado = 0
@@ -85,15 +86,13 @@ BEGIN
 							,dbo.TipoContrato T
 		WHERE D.IdTipoContrato = DMM.IdTipoContrato AND T.Id = DMM.IdTipoContrato;
 
-		
-
+		------------ Calcula los montos de los tipos de tarifas que solo tienen relacionado el costo de un minutos normal
 		INSERT INTO @Totales (IdContrato,IdTipoContrato,IdConceptoTarifa,MontoTotal)
-		SELECT D.IdContrato,D.IdTipoContrato,D.IdConceptoTarifa, CASE WHEN T.TipoTelefono = 2 THEN D.Valor * F.SaldoMinutos800
+		SELECT DISTINCT D.IdContrato,D.IdTipoContrato,D.IdConceptoTarifa, CASE WHEN T.TipoTelefono = 2 THEN D.Valor * F.SaldoMinutos800
 																	WHEN T.TipoTelefono = 3 THEN D.Valor * F.SaldoMinutos900
 																	END
 		FROM @DatosMontos D inner join @FacturasACerrar FC on D.IdContrato = FC.IdContrato
-							inner join dbo.Facturas F on D.IdContrato = F.IdContrato and F.EstaCerrado = 0
-							, dbo.TipoContrato T
+							inner join dbo.Facturas F on D.IdContrato = F.IdContrato and F.EstaCerrado = 0,dbo.TipoContrato T
 		WHERE T.Id = D.IdTipoContrato AND D.IdTipoContrato >= 7;
 
 		BEGIN TRAN
@@ -140,7 +139,6 @@ BEGIN
 			FROM @Totales T inner join @FacturasACerrar F on T.IdContrato = F.IdContrato
 			GROUP BY T.IdContrato;
 			---------------------------------------------------------------------------------------------------------
-			
 
 			-------------------- CREAN LOS DETALLES DE LA FACTURA ---------------------------------------------------
 			INSERT INTO dbo.Detalle(IdConceptoTarifa,IdFactura,Monto,Activo)
@@ -149,7 +147,7 @@ BEGIN
 			---------------------------------------------------------------------------------------------------------
 			
 
-			------------------ Cierra las facturas -------------------------------------------
+			------------------ "Cierra" las facturas -------------------------------------------
 			UPDATE dbo.Facturas
 			SET [Facturas].EstaCerrado = 1
 			FROM dbo.Facturas F inner join @FacturasACerrar FC on F.Id = FC.IdFactura AND F.Activo = 1
