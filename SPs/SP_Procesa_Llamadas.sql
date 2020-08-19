@@ -22,7 +22,7 @@ BEGIN
 																		then 1440 + DATEDIFF(minute,L.Inicio,L.Fin) 
 																		else DATEDIFF(minute,L.Inicio,L.Fin) end,1
 			FROM dbo.Facturas F inner join dbo.Contrato C on F.IdContrato = C.Id ,@inLlamadas L,dbo.TipoMovimiento TM
-			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and NOT ((L.Inicio BETWEEN '23:00:00'AND'23:59:00' OR  L.Inicio BETWEEN '00:00:00'AND'05:00:00')  AND( L.Fin BETWEEN '23:00:00'AND'23:59:00' OR  L.Fin BETWEEN '00:00:00'AND'05:00:00')) and len(L.NumeroA) = 8;
+			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and NOT ((L.Inicio BETWEEN '23:00:00'AND'23:59:00' OR  L.Inicio BETWEEN '00:00:00'AND'05:00:00')  AND( L.Fin BETWEEN '23:00:00'AND'23:59:00' OR  L.Fin BETWEEN '00:00:00'AND'05:00:00')) and len(L.NumeroA) = 8 and F.EstaCerrado = 0;
 			------------											---- Si al menos uno esta en la franja de normal, annaden como minutos normales
 
 
@@ -32,7 +32,7 @@ BEGIN
 																		then 1440 + DATEDIFF(minute,L.Inicio,L.Fin) 
 																		else DATEDIFF(minute,L.Inicio,L.Fin) end,1
 			FROM dbo.Facturas F inner join dbo.Contrato C on F.IdContrato = C.Id, @inLlamadas L,dbo.TipoMovimiento TM
-			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and (L.Inicio BETWEEN '23:00:00'AND'23:59:00' OR  L.Inicio BETWEEN '00:00:00'AND'05:00:00')  AND (L.Fin BETWEEN '23:00:00'AND'23:59:00' OR  L.Fin BETWEEN '00:00:00'AND'05:00:00') and len(L.NumeroA) = 8;
+			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and (L.Inicio BETWEEN '23:00:00'AND'23:59:00' OR  L.Inicio BETWEEN '00:00:00'AND'05:00:00')  AND (L.Fin BETWEEN '23:00:00'AND'23:59:00' OR  L.Fin BETWEEN '00:00:00'AND'05:00:00') and len(L.NumeroA) = 8  and F.EstaCerrado = 0;
 																				--- Si esta en la franja nocturna, los minutos seran nocturnos
 
 			----------------- Movimientos relacionado a 110 ---------------------------------------------------------------
@@ -41,7 +41,7 @@ BEGIN
 																		then 1440 + DATEDIFF(minute,L.Inicio,L.Fin) 
 																		else DATEDIFF(minute,L.Inicio,L.Fin) end,1
 			FROM dbo.Facturas F inner join dbo.Contrato C on F.IdContrato = C.Id,@inLlamadas L,dbo.TipoMovimiento TM
-			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and L.NumeroA = '110';
+			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and L.NumeroA = '110'  and F.EstaCerrado = 0;
 
 
 			--------------------- Movimientos con numeros 900 -------------------------------------------------------------
@@ -50,7 +50,7 @@ BEGIN
 																		then (1440 + DATEDIFF(minute,L.Inicio,L.Fin)) 
 																		else (DATEDIFF(minute,L.Inicio,L.Fin)) end,1
 			FROM dbo.Facturas F inner join dbo.Contrato C on F.IdContrato = C.Id, @inLlamadas L, dbo.TipoMovimiento TM
-			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and len(L.NumeroA) = 11 and L.NumeroA LIKE '900%';
+			WHERE C.NumeroTelefono = L.NumeroDe and TM.Nombre = 'Debito' and len(L.NumeroA) = 11 and L.NumeroA LIKE '900%'  and F.EstaCerrado = 0;
 
 			--------------------- Movimientos con numeros 800, este se le suma los minutos a la persona que se llama que tiene 800- -------------------------------------------------------------
 			INSERT INTO dbo.MovMinutos800(IdFactura,IdTipoMovimiento,Fecha,NumTelefono,HoraInicio,HoraFinal,CantidadMinutos,Activo)
@@ -58,35 +58,35 @@ BEGIN
 																		then 1440 + DATEDIFF(minute,L.Inicio,L.Fin) 
 																		else DATEDIFF(minute,L.Inicio,L.Fin) end,1
 			FROM dbo.Facturas F inner join dbo.Contrato C on F.IdContrato = C.Id, @inLlamadas L, dbo.TipoMovimiento TM
-			WHERE C.NumeroTelefono = L.NumeroA and TM.Nombre = 'Debito' and len(L.NumeroA) = 11 and L.NumeroA LIKE '800%';
+			WHERE C.NumeroTelefono = L.NumeroA and TM.Nombre = 'Debito' and len(L.NumeroA) = 11 and L.NumeroA LIKE '800%' and F.EstaCerrado = 0;
 
 
 			-------------------------- SE ACTUALIZAN LOS SALDOS QUE REGISTRARON UN MOVIMIENTO EN ESE DIA -------------------------------------
 			UPDATE dbo.Facturas
 			SET [dbo].[Facturas].SaldoMinutos += MM.CantidadMinutos 
 			FROM dbo.Facturas F inner join dbo.MovUsoMinutos MM on F.Id = MM.IdFactura
-			WHERE MM.Fecha = @inFechaActual
+			WHERE MM.Fecha = @inFechaActual  and F.EstaCerrado = 0
 
 			UPDATE dbo.Facturas
 			SET  [dbo].[Facturas].SaldoMinutosNocturno += MMN.CantidadMinutos
 			FROM dbo.Facturas F inner join dbo.MovUsoMinutosNocturno MMN on F.Id = MMN.IdFactura
-			WHERE MMN.Fecha = @inFechaActual
+			WHERE MMN.Fecha = @inFechaActual AND F.EstaCerrado = 0
 								
 			UPDATE dbo.Facturas
 			SET  [dbo].[Facturas].SaldoMinutos110 += M110.CantidadMinutos
 			FROM dbo.Facturas F inner join dbo.MovMinutos110 M110 on F.Id = M110.IdFactura
-			WHERE M110.Fecha = @inFechaActual
+			WHERE M110.Fecha = @inFechaActual AND F.EstaCerrado = 0
 
 			UPDATE dbo.Facturas
 			SET  [dbo].[Facturas].SaldoMinutos800 += M800.CantidadMinutos
 			FROM dbo.Facturas F inner join dbo.MovMinutos800 M800 on F.Id = M800.IdFactura
 								inner join dbo.MovMinutos900 M900 on F.Id = M900.IdFactura
-			WHERE M800.Fecha = @inFechaActual
+			WHERE M800.Fecha = @inFechaActual AND F.EstaCerrado = 0
 
 			UPDATE dbo.Facturas
 			SET  [dbo].[Facturas].SaldoMinutos800 += M900.CantidadMinutos
 			FROM dbo.Facturas F inner join dbo.MovMinutos900 M900 on F.Id = M900.IdFactura
-			WHERE M900.Fecha = @inFechaActual
+			WHERE M900.Fecha = @inFechaActual AND F.EstaCerrado = 0
 			----------------------------------------------------------------------------------------
 
 		COMMIT

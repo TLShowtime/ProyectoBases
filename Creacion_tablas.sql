@@ -142,6 +142,7 @@ CREATE TABLE TipoMovimiento(
 	Activo int not null
 );
 
+------ Estado en este caso es 0 si esta abierta o 1 si esta cerrado 
 CREATE TABLE Facturas(
 	Id int not null Primary Key identity(1,1),
 	IdContrato int not null Foreign Key references Contrato(Id),
@@ -152,6 +153,7 @@ CREATE TABLE Facturas(
 	SaldoMinutos110 int not null,
 	SaldoMinutos800 int not null,
 	SaldoMinutos900 int not null,
+	EstaCerrado int not null,
 	Activo int not null
 );
 

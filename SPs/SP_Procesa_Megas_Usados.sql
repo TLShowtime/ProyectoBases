@@ -19,13 +19,13 @@ BEGIN
 			INSERT INTO dbo.MovUsoMega(IdFactura,IdTipoMovimiento,Fecha,Monto,Activo)
 			SELECT F.Id,TM.Id,@inFechaActual,CONVERT(real,D.CantidadMegas),1
 			FROM dbo.Facturas F inner join dbo.Contrato C on F.IdContrato = C.Id ,@inDatosUsados D,dbo.TipoMovimiento TM
-			WHERE C.NumeroTelefono = D.Numero and TM.Nombre = 'Debito';	
+			WHERE C.NumeroTelefono = D.Numero and TM.Nombre = 'Debito' AND F.EstaCerrado = 0;	
 
 			-- Actualizacion del saldo de megas de la factura
 			UPDATE dbo.Facturas
 			SET [dbo].[Facturas].SaldoUsoMega += MM.Monto
 			FROM dbo.Facturas F inner join dbo.MovUsoMega MM on F.Id = MM.IdFactura
-			WHERE MM.Fecha = @inFechaActual
+			WHERE MM.Fecha = @inFechaActual AND F.EstaCerrado = 0
 
 		COMMIT
 		RETURN 1 -- Exito

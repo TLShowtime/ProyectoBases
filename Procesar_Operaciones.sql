@@ -1,5 +1,8 @@
 USE [Empresa]
 
+DELETE dbo.Detalle
+DELETE dbo.Factura
+
 DELETE dbo.MovUsoMinutosNocturno
 DELETE dbo.MovUsoMinutos
 DELETE dbo.MovUsoMega
@@ -58,7 +61,7 @@ FROM @Fechas F
 -------------Comienza la Simulacion
 WHILE @fechaini <= @fechafin
 BEGIN
-
+	PRINT(@fechaIni)
 	-- Obtiene los clientes nuevos del XML
 	INSERT INTO @Clientes (Nombre,Identificacion)
 	SELECT Nombre1,Identificacion1
@@ -146,11 +149,10 @@ BEGIN
 	----------------------------
 	-- Generacion de facturas
 
-	-- EXEC SP_Generar_Facturas @fechaIni
+	EXEC SP_Generar_Facturas @fechaIni
 	---------------------------
 
-	/**
-	-------------- ---------------------------------
+	-------------- ------------- XML ---------------------------------- 
 	INSERT INTO @FacturasAPagar(Numero)
 	SELECT NUmero
 	FROM OPENXML (@hdoc, '/Operaciones_por_Dia/OperacionDia/PagoFactura',1)
@@ -159,11 +161,11 @@ BEGIN
 		Fecha date '../@fecha'
 	) 
 	WHERE @fechaIni = Fecha;
+	------------------------------------------------------------------
 
+	-------- Procesa los pagos de factura -----------------
+	EXEC SP_Procesa_Pago_Facturas @FacturasAPagar
 	-------------------------
-	-- EXEC SP_Procesa_Pago_Facturas @FacturasAPagar
-	-------------------------
-	*/
 
 	DELETE @Clientes;
 	DELETE @Contratos;
@@ -178,19 +180,3 @@ END;
 
 -- Cierra el Archivo XML
 EXEC sp_xml_removedocument @hdoc;
-
-/**
-SELECT E1.Id,C1.Identificacion,C2.Identificacion,E1.IdTipoRelacion from dbo.EsFamiliaDe E1 inner join dbo.Cliente C1 on E1.IdClienteAgregacion = C1.Id,
-			  dbo.EsFamiliaDe E2 inner join dbo.Cliente C2 on E2.IdClienteAsociacion = C2.Id
-		where E1.Id = E2.Id
-*/
-
-/* Procesar para la generacion de factura
-	SELECT TXC.IdTipoContrato,TXC.Valor,T.Nombre,C.*
-FROM dbo.TipoContratoXConceptoTarifa TXC inner join dbo.TipoContrato T on TXC.IdTipoContrato = T.Id
-										 inner join dbo.ConceptoTarifa C on TXC.IdConceptoTarifa = C.Id
-
-*/
-
---SELECT C.NumeroTelefono,F.* from dbo.Facturas F inner join dbo.Contrato C on F.IdContrato  =C.Id
-

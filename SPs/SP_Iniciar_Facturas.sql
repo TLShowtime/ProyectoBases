@@ -1,29 +1,24 @@
 USE [Empresa]
 GO
-IF OBJECT_ID('[dbo].[SP_Procesa_ContratosNuevos ]') IS NOT NULL
+IF OBJECT_ID('[dbo].[SP_Iniciar_Facturas ]') IS NOT NULL
 BEGIN 
-    DROP PROC [dbo].[SP_Procesa_ContratosNuevos ]  
+    DROP PROC [dbo].[SP_Iniciar_Facturas ]  
 END 
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE PROC SP_Procesa_ContratosNuevos @inContratosNuevos NuevoContrato READONLY,@inFechaActual date
+CREATE PROC SP_Iniciar_Facturas @inContratosNuevos ContratosParaFactura READONLY,@inFechaActual date
 AS   
 BEGIN 
 	BEGIN TRY
 		SET NOCOUNT ON 
 
 		BEGIN TRAN
-			INSERT INTO dbo.Contrato(IdCliente,IdTipoContrato,NumeroTelefono,Fecha,Activo)
-			SELECT C.Id,T.Id,CN.Numero,@inFechaActual,1
-			FROM @inContratosNuevos CN inner join dbo.Cliente C on CN.Identificacion = C.Identificacion
-									   inner join dbo.TipoContrato T on CN.TipoTarifa = T.Id
-
 			-- Inicializa una factura nueva a partir de la firma del contrato
 			INSERT INTO dbo.Facturas(IdContrato,Fecha,SaldoMinutos,SaldoMinutosNocturno,SaldoUsoMega,SaldoMinutos110,SaldoMinutos800,SaldoMinutos900,EstaCerrado,Activo)
 			SELECT C.Id,@inFechaActual,0,0,0,0,0,0,0,1
-			FROM dbo.Contrato C, @inContratosNuevos CN inner join dbo.Cliente CL on CN.Identificacion = CL.Identificacion
+			FROM @inContratosNuevos CN inner join dbo.Contrato C on CN.idContrato = C.Id 
 			WHERE C.IdCliente = CL.Id;
 
 			-------- MOVIMIENTOS INICIALES PARA CADA FACTURA--------------------------------------------------------------------------
